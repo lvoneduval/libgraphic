@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_vector3_dotprod.c                               :+:      :+:    :+:   */
+/*   ft_vec3_cos.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lduval <lduval@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/14 22:33:27 by lduval            #+#    #+#             */
-/*   Updated: 2017/03/14 22:33:56 by lduval           ###   ########.fr       */
+/*   Created: 2018/05/18 05:33:32 by lduval            #+#    #+#             */
+/*   Updated: 2018/05/18 05:34:17 by lduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libgraphic.h"
+#include "vector3.h"
 
-float	ft_vector3_dotprod(t_vector3 *v1, t_vector3 *v2)
+t_vector3	ft_vec3_cos(t_vector3 v1, t_vector3 v2)
 {
-	return ((v1->x * v2->x) + (v1->y + v2->y) + (v1->z + v2->z));
+	return (ft_vec3_dotprod(v1, v2) /
+			(ft_vec3_magnitude(v1) * ft_vec3_magnitude(v2)));
 }

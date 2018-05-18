@@ -1,27 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_vector3_normalize.c                             :+:      :+:    :+:   */
+/*   ft_vec2_opp.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lduval <lduval@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/14 21:51:13 by lduval            #+#    #+#             */
-/*   Updated: 2017/03/14 22:43:07 by lduval           ###   ########.fr       */
+/*   Created: 2018/05/18 05:31:51 by lduval            #+#    #+#             */
+/*   Updated: 2018/05/18 05:56:04 by lduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libgraphic.h"
+#include "vector2.h"
 
-t_vector3	*ft_vector3_normalize(t_vector3 *v)
+t_vector2	ft_vec2_opp(t_vector2 v)
 {
-	t_vector3	*v1;
-	float		len;
+	t_vector2	v1;
 
-	if (!(v1 = (t_vector3 *)malloc(sizeof(t_vector3))))
-		return (NULL);
-	len = ft_vector3_magnitude(v);
-	v1->x = v->x / len;
-	v1->y = v->y / len;
-	v1->z = v->z / len;
+	v1.x = -v.x;
+	v1.y = -v.y;
 	return (v1);
 }

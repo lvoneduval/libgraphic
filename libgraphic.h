@@ -6,7 +6,7 @@
 /*   By: lduval <lduval@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/06 04:41:48 by lduval            #+#    #+#             */
-/*   Updated: 2017/03/15 10:14:38 by lduval           ###   ########.fr       */
+/*   Updated: 2018/05/18 07:32:20 by lduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,30 +49,6 @@ typedef	struct	s_vertex3
 	t_color		*color;
 }				t_vertex;
 
-/*
-** /////////////////////////////////////////////////////////////////////////////
-** Structure  Vector :
-**
-** /////////////////////////////////////////////////////////////////////////////
-*/
-
-typedef	struct	s_vector3
-{
-	float		x;
-	float		y;
-	float		z;
-	float		w;
-}				t_vector3;
-
-float			ft_vector3_maginitude(t_vector3 *v);
-t_vector3		*ft_vector3_normalize(t_vector3 *v);
-t_vector3		*ft_vector3_add(t_vector3 *v1, t_vector3 *v1);
-t_vector3		*ft_vector3_sub(t_vector3 *v1, t_vector3 *v2);
-t_vector3		*ft_vector3_opposite(t_vector3 *v);
-t_vector3		*ft_vector3_prodxscal(t_vector3 *v, float f);
-float			ft_vector3_dotprod(t_vector3 *v1, t_vector2 *v2);
-t_vector3		*ft_vector3_prodcross(t_vector3 *v1, t_vector2 *v2);
-t_vector3		*ft_vector3_cos(t_vector3 *v1, t_vector2 *v2);
 
 /*
 ** /////////////////////////////////////////////////////////////////////////////

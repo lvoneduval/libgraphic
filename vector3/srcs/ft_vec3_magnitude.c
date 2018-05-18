@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_vector3_crossprod.c                             :+:      :+:    :+:   */
+/*   ft_vec3_magnitude.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lduval <lduval@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/14 22:33:38 by lduval            #+#    #+#             */
-/*   Updated: 2017/03/14 22:38:44 by lduval           ###   ########.fr       */
+/*   Created: 2017/03/14 21:50:20 by lduval            #+#    #+#             */
+/*   Updated: 2018/05/18 06:53:43 by lduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libgraphic.h"
+#include "vector3.h"
 
-t_vector3	*ft_vector3_crossprod(t_vector3 *v1, t_vector3 *v2)
+float	ft_vec3_magnitude(t_vector3 v)
 {
-	t_vector3	*v;
-
-	if (!(v = (t_vector3 *)malloc(sizeof(t_vector3))))
-		return (NULL);
-	v->x = (v1->y * v2->z) - (v1->z * v2->y);
-	v->y = (v1->z * v2->x) - (v1->x * v2->z);
-	v->z = (v1->x * v2->y) - (v1->y * v2->x);
-	return (v);
+	return (sqrtf(v.x * v.x + v.y * v.y + v.z * v.z));
 }

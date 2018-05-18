@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_vector3_magnitude.c                             :+:      :+:    :+:   */
+/*   ft_quat_cos.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lduval <lduval@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/14 21:50:20 by lduval            #+#    #+#             */
-/*   Updated: 2017/03/15 00:20:41 by lduval           ###   ########.fr       */
+/*   Created: 2018/05/18 06:16:53 by lduval            #+#    #+#             */
+/*   Updated: 2018/05/18 06:25:30 by lduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libgraphic.h"
+#include "4ternion.h"
 
-float	*ft_vector3_magnitude(t_vector3 *v)
+t_4ternion	ft_quat_cos(t_4ternion v1, t_4ternion v2)
 {
-	return (sqrt(pow(v->x, 2) + pow(v->y, 2) + pow(v->z, 2)));
+	return (ft_quat_dotprod(v1, v2) /
+			(ft_quat_magnitude(v1) * ft_quat_magnitude(v2)));
 }

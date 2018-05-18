@@ -1,25 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_vector3_opposite.c                              :+:      :+:    :+:   */
+/*   ft_vec2_normalize.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lduval <lduval@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/14 22:04:08 by lduval            #+#    #+#             */
-/*   Updated: 2017/03/14 22:06:43 by lduval           ###   ########.fr       */
+/*   Created: 2018/05/18 05:40:52 by lduval            #+#    #+#             */
+/*   Updated: 2018/05/18 07:05:17 by lduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libgraphic.h"
+#include "vector2.h"
 
-t_vector3	*ft_vector3_opposite(t_vector3 *v)
+t_vector2	ft_vec2_normalize(t_vector2 v)
 {
-	t_vector3	*v1;
+	t_vector2	v1;
+	float		len;
 
-	if (!(v1 = (t_vector3 *)malloc(sizeof(t_vector3))))
-		return (NULL);
-	v1->x = -v->x;
-	v1->y = -v->y;
-	v1->z = -v->z;
+	v1.x = v.x;
+	v1.y = v.y;
+	if (!len = ft_vec2_magnitude(v))
+	{
+		len = 1.0 / len;
+		v1.x *= len;
+		v1.y *= len;
+	}
 	return (v1);
 }
