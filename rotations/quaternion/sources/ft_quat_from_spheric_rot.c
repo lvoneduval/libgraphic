@@ -1,5 +1,4 @@
 #include "../includes/quaternions.h"
-#include <math.h>
 t_quat	ft_quat_from_spheric_rot(t_sphrot rot)
 {
 	t_quat	dst;

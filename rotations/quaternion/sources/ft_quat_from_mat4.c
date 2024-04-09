@@ -1,6 +1,4 @@
 #include "../includes/quaternions.h"
-#include "../../matrix/includes/matrix.h"
-#include <math.h>
 t_quat	ft_quat_from_mat4(t_matrix4 m)
 {
 	t_quat	q;

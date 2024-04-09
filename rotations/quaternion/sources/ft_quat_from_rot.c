@@ -1,5 +1,4 @@
 #include "../includes/quaternions.h"
-#include <math.h>
 t_quat	ft_quat_from_rot(t_aarot rot)
 {
 	t_quat	dst;

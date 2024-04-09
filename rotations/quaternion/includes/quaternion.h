@@ -1,9 +1,12 @@
 #ifndef QUATERNION_H
 # define QUATERNION_H
+
 #include "../../axeAngleRot/includes/aarot.h"
 #include "../../sphericRot/includes/sphrot.h"
 #include "../../../vector/vector3/includes/vector3.h"
 #include "../../../matrix/matrix4/includes/matrix4.h"
+
+#include <math.h>
 
 typedef struct s_quat
 {
