@@ -1,5 +1,3 @@
-#include <math.h>
-#include "../../quaternion/includes/quaternion.h"
 #include "../includes/aarot.h"
 
 t_aarot   ft_aarot_from_quat(t_quat q)

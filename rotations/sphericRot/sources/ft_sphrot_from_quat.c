@@ -1,8 +1,8 @@
-#include <math.h>
-#include "../includes/quaternions.h"
-t_sphrot ft_sphrot_from_quat(t_quater q)
+#include "../includes/sphrot.h"
+
+t_sphrot ft_sphrot_from_quat(t_quat q)
 {
-  t_sphrot rot;
+	t_sphrot rot;
 	float	  norm;
 
 	rot.rad = acosf(q.w) * 2.0;

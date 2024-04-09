@@ -1,5 +1,4 @@
 #include "../includes/matrix4.h"
-#include "../../../quaternion/includes/quaternion.h"
 
 t_matrix4	ft_matrix4_from_quat(t_quat q)
 {
