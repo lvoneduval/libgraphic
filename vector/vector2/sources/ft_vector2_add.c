@@ -1,5 +1,4 @@
 #include "../includes/vector2.h"
-
 /*
 **	->	Add two t_vector2 : v1 + v2
 */

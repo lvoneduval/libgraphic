@@ -8,4 +8,6 @@ typedef struct s_aarot {
     float angle; // Rotation angle in radians
 } t_aarot;
 
+t_aarot ft_aarot_new(float x, float y, float z, float angle)
+
 #endif

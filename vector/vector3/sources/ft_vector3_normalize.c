@@ -4,7 +4,7 @@
 **  -> Create t_vector3 with the same direction and
 **  orientation as v and a magnitude of 1.
 */
-t_vector3	ft_vec3_normalize(t_vector3 v)
+t_vector3	ft_vector3_normalize(t_vector3 v)
 {
 	t_vector3	dst;
 	float		norm;

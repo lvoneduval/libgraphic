@@ -7,4 +7,5 @@ typedef struct  s_sphrot {
     float rad;      // Rotation angle in radians around the axis defined by latitude and longitude
 }               t_sphrot;
 
+t_sphrot ft_sphrot_from_quat(t_quater q);
 #endif

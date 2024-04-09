@@ -1,3 +1,5 @@
+#include "../includes/aarot.h"
+
 t_aarot ft_aarot_new(float x, float y, float z, float angle)
 {
     t_aarot rot;
