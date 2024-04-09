@@ -1,8 +1,8 @@
-#include "../includes/quaternions.h"
+#include "../includes/quaternion.h"
 
-t_quater	ft_quat_neg(t_quater q)
+t_quat	ft_quat_neg(t_quat q)
 {
-	t_quater	dst;
+	t_quat	dst;
 
 	dst.w = -(q.w);
 	dst.x = -(q.x);

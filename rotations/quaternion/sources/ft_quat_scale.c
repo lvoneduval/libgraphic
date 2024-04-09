@@ -1,8 +1,8 @@
-#include "../includes/quaternions.h"
+#include "../includes/quaternion.h"
 
-t_quater	ft_quat_scale(t_quater q, float n)
+t_quat	ft_quat_scale(t_quat q, float n)
 {
-	t_quater	dst;
+	t_quat	dst;
 
 	dst.w = q.w * n;
 	dst.x = q.x * n;

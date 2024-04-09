@@ -1,4 +1,4 @@
-#include "../includes/quaternions.h"
+#include "../includes/quaternion.h"
 t_quat ft_quat_from_vector3(t_vector3 v, float w)
 {
   t_quat  dst;

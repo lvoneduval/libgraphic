@@ -1,8 +1,8 @@
-#include "../includes/quaternions.h"
+#include "../includes/quaternion.h"
 
-t_quater		ft_quat_lerp(t_quater a, t_quater b, float alpha)
+t_quat		ft_quat_lerp(t_quat a, t_quat b, float alpha)
 {
-	t_quater	out;
+	t_quat	out;
 	float		a1;
 
 	a1 = 1.0 - alpha;

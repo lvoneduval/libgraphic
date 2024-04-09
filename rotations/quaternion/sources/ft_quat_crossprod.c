@@ -1,12 +1,12 @@
-#include "../includes/quaternions.h"
+#include "../includes/quaternion.h"
 
 /*
-** 	->	Vectorial product of two t_quater : q1 ^ q2 = - q2 ^ q1
+** 	->	Vectorial product of two t_quat : q1 ^ q2 = - q2 ^ q1
 */
 
-t_quater	ft_quat_crossprod(t_quater q1, t_quater q2)
+t_quat	ft_quat_crossprod(t_quat q1, t_quat q2)
 {
-	t_quater	dst;
+	t_quat	dst;
 
 	dst.x = (q1.y * q2.z) - (q1.z * q2.y);
 	dst.y = (q1.z * q2.x) - (q1.x * q2.z);

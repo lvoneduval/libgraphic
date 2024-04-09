@@ -1,8 +1,8 @@
-#include "../includes/quaternions.h"
+#include "../includes/quaternion.h"
 
-t_quater	ft_quat_dotnormalize(t_quater q)
+t_quat	ft_quat_dotnormalize(t_quat q)
 {
-	t_quater	dst;
+	t_quat	dst;
 	float		w_inv;
 
 	dst.x = q.x;

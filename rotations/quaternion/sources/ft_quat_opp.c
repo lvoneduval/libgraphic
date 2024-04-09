@@ -1,12 +1,12 @@
-#include "../includes/quaternions.h"
+#include "../includes/quaternion.h"
 
 /*
-**	->	Opposite t_quater value : q = -q
+**	->	Opposite t_quat value : q = -q
 */
 
-t_quater	ft_quat_opp(t_quater q)
+t_quat	ft_quat_opp(t_quat q)
 {
-	t_quater	dst;
+	t_quat	dst;
 
 	dst.w = q.w;
 	dst.x = -(q.x);
