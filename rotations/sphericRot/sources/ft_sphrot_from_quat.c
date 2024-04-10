@@ -5,7 +5,7 @@ t_sphrot ft_sphrot_from_quat(t_quat q)
 	t_sphrot rot;
 	float	  norm;
 
-	rot.rad = acosf(q.w) * 2.0;
+	rot.angle = acosf(q.w) * 2.0;
 	norm = sqrtf(q.x * q.x + q.y * q.y + q.z * q.z);
 	if (norm > 0.0005)
 	{

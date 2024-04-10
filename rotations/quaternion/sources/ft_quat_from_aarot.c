@@ -1,5 +1,5 @@
 #include "../includes/quaternion.h"
-t_quat	ft_quat_from_rot(t_aarot rot)
+t_quat	ft_quat_from_aarot(t_aarot rot)
 {
 	t_quat	dst;
 	float		s;
