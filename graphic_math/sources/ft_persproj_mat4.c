@@ -1,18 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_persproj_mat4.c                                 :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: upopee <upopee@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/04/20 23:03:27 by upopee            #+#    #+#             */
-/*   Updated: 2018/05/13 20:07:14 by upopee           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#include <math.h>
-#include "../../libgraphic_macros.h"
-#include "../includes/camera.h"
+#include "../includes/g_math.h"
 
 static t_matrix4	zero_values(void)
 {

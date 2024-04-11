@@ -1,3 +1,5 @@
+#include "../includes/colorrgba.h"
+
 int		ft_icolor_lerp(int a, int b, float i)
 {
 	int		bm;

@@ -1,3 +1,4 @@
+#include "../includes/debug.h"
 
 static void		print_cam2(t_camera cam)
 {

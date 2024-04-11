@@ -1,3 +1,5 @@
+#include "../includes/mlx_tools.h"
+
 void		pixel_to_img(t_mlximg *img, int x, int y, unsigned int color)
 {
 	char			*curr_pixel;

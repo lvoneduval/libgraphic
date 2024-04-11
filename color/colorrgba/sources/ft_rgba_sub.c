@@ -1,3 +1,5 @@
+#include "../includes/colorrgba.h"
+
 t_colorrgba	ft_rgba_sub(t_colorrgba color, t_colorrgba sub)
 {
 	color.red -= sub.red;

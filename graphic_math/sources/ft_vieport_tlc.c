@@ -1,3 +1,5 @@
+#include "../includes/g_math.h"
+
 t_vertex2i	ft_viewport_tlc(t_vector3 ndc, t_vertex2i origin,
 							unsigned int width, unsigned int height)
 {

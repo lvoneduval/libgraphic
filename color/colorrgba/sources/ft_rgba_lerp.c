@@ -1,3 +1,5 @@
+#include "../includes/colorrgba.h"
+
 t_colorrgba	ft_rgba_lerp(t_colorrgba a, t_colorrgba b, float i)
 {
 	t_colorrgba	shade;

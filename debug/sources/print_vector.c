@@ -1,3 +1,5 @@
+#include "../includes/debug.h"
+
 void	print_ver2i(t_vertex2i v)
 {
 	int		precision;
@@ -25,7 +27,7 @@ void	print_vec3(t_vector3 v)
 											precision, v.x, v.y, v.z);
 }
 
-void	print_quat(t_quater q)
+void	print_quat(t_quat q)
 {
 	int		precision;
 

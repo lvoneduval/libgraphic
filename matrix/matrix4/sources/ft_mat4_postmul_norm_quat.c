@@ -1,3 +1,5 @@
+#include "../includes/matrix4.h"
+
 t_quat	ft_mat4_postmul_norm_quat(t_quat q, t_matrix4 m)
 {
 	t_quat	dst;

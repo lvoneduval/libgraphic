@@ -1,4 +1,5 @@
 #include "../includes/matrix4.h"
+
 t_matrix4			ft_mat4_from_aarot(t_aarot rot)
 {
  	t_matrix4	dst;
@@ -7,8 +8,8 @@ t_matrix4			ft_mat4_from_aarot(t_aarot rot)
 	float     t;
 
 	rot = ft_aarot_normalize(rot);
-	s = sinf(rot.rad);
-	c = cosf(rot.rad);
+	s = sinf(rot.angle);
+	c = cosf(rot.angle);
 	t = 1.0 - c;
 	dst.array[0][0] = (rot.x * rot.x * t) + c;
 	dst.array[0][1] = (rot.x * rot.y * t) - (rot.z * s);

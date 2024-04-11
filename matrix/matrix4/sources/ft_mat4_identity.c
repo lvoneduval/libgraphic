@@ -1,4 +1,6 @@
-t_matrix4	ft_gen_identity_mat4(void)
+#include "../includes/matrix4.h"
+
+t_matrix4	ft_mat4_identity(void)
 {
 	t_matrix4	dst;
 

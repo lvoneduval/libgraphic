@@ -1,3 +1,5 @@
+#include "../includes/colorrgba.h"
+
 t_colorrgba		ft_rgba_from_i(int color)
 {
 	t_colorrgba		dst;

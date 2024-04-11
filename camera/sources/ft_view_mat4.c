@@ -1,3 +1,4 @@
+#include "../includes/camera.h"
 t_matrix4	ft_view_mat4(t_vector3 eye, t_vector3 up,
 							t_vector3 side, t_vector3 forward)
 {

@@ -1,6 +1,6 @@
 #include "../includes/matrix4.h"
 
-t_matrix4	ft_mat4_sale_from_vector3(t_vector3 v)
+t_matrix4	ft_mat4_scale_from_vector3(t_vector3 v)
 {
 	t_matrix4	dst;
 

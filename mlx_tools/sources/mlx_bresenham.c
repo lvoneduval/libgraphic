@@ -1,3 +1,5 @@
+#include "../includes/mlx_tools.h"
+
 static int		is_visible(t_vertex2i pt, int w, int h)
 {
 	return (pt.x >= 0 && pt.x < w && pt.y >= 0 && pt.y < h);

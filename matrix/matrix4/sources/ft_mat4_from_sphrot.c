@@ -1,12 +1,10 @@
-#include "sphrot.h"
-#include "matrix.h"
-#include <math.h>
+#include "../includes/matrix4.h"
 
 /*
 ** Converts a spherical rotation to a 4x4 rotation matrix.
 ** Using Rodrigues algorithme.
 */
-t_matrix4 ft_matrix4_from_sphrot(t_sphrot sphrot)
+t_matrix4 ft_mat4_from_sphrot(t_sphrot sphrot)
 {
     t_matrix4 mat;
     float s;

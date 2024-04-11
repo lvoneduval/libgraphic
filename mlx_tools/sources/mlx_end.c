@@ -1,3 +1,5 @@
+#include "../includes/mlx_tools.h"
+
 void	del_mlxenv(t_mlxenv *m_env)
 {
 	if (m_env)

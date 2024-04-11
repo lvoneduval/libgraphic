@@ -1,3 +1,5 @@
+#include "../includes/colorrgb.h"
+
 t_colorrgb	ft_rgb_new(uint8_t red, uint8_t green, uint8_t blue)
 {
 	t_colorrgb	dst;

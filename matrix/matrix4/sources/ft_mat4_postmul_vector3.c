@@ -1,3 +1,5 @@
+#include "../includes/matrix4.h"
+
 t_vector3	ft_mat4_postmul_vector3(t_vector3 v, t_matrix4 m)
 {
 	t_vector3	dst;

@@ -1,3 +1,5 @@
+#include "../includes/camera.h"
+
 t_camera	ft_cam_init(float fov, float ratio, float near, float far)
 {
 	t_camera	cam;

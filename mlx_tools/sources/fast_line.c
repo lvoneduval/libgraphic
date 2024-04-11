@@ -1,3 +1,5 @@
+#include "../includes/mlx_tools.h"
+
 static void		case_one(t_mlximg *img, int long_len, int inc, t_vertex2i pt)
 {
 	int		index;

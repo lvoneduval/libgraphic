@@ -1,6 +1,6 @@
 #include "../includes/matrix4.h"
 
-t_matrix4	ft_matrix4_from_quat(t_quat q)
+t_matrix4	ft_mat4_from_quat(t_quat q)
 {
 	t_matrix4	dst;
 

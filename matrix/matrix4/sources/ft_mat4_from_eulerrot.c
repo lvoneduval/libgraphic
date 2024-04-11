@@ -81,7 +81,8 @@ static t_matrix4	ft_gen_rot_z(float rad_angle_z)
 	return (rot_z);
 }
 
-t_matrix4 ft_gen_euler_rotation_mat4(t_eulerrot euler) {
+t_matrix4 ft_mat4_from_eulerrot(t_eulerrot euler)
+{
     t_matrix4 rot_x;
     t_matrix4 rot_y;
     t_matrix4 rot_z;

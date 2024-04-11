@@ -1,3 +1,4 @@
+#include "../includes/debug.h"
 
 void	print_mat4(t_matrix4 m, char *name)
 {

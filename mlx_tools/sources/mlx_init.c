@@ -1,3 +1,5 @@
+#include "../includes/mlx_tools.h"
+
 t_mlxenv		*init_mlxenv(void)
 {
 	t_mlxenv	*env;

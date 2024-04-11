@@ -1,3 +1,5 @@
+#include "../includes/matrix4.h"
+
 t_matrix4	ft_transpose_mat4(t_matrix4 m)
 {
 	t_matrix4	dst;

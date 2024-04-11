@@ -1,3 +1,5 @@
+#include "../includes/camera.h"
+
 t_matrix4	ft_cam_lookat(t_camera *cam, t_vector3 eye,
 						t_vector3 center, t_vector3 up)
 {
@@ -15,7 +17,7 @@ t_matrix4	ft_cam_lookat(t_camera *cam, t_vector3 eye,
 	cam->forward = forward;
 	cam->eye = eye;
 	cam->center = center;
-  view = ft_view_mat4(eye, up, side, forward);
+  	view = ft_view_mat4(eye, up, side, forward);
 	cam->view_matrix = view;
 	return (view);
 }

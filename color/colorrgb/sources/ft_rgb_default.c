@@ -1,3 +1,5 @@
+#include "../includes/colorrgb.h"
+
 t_colorrgb	ft_rgb_default(void)
 {
 	t_colorrgb	dst;

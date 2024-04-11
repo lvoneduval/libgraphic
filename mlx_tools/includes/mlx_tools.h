@@ -7,6 +7,9 @@
 # define MLXWIN_MARGEX (MLXWIN_WIDTH_MAX * 0.15)
 # define MLXWIN_MARGEY (MLXWIN_HEIGHT_MAX * 0.15)
 
+#include "../../vertex/includes/vertex.h"
+#include <stdio.h>
+
 typedef struct	s_mlxenv
 {
 	void		*init_id;
