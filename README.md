@@ -323,7 +323,7 @@
 
 ## 🛠 Project Roadmap
 
-- [ ] `► MAKEFILE`
+- [X] `► MAKEFILE`
 - [ ] `► DEPENDENCIES:`
 - [ ] `► ADD MATRIX2`
 - [ ] `► ADD MATRIX3`
