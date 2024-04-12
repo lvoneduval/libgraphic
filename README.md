@@ -58,41 +58,41 @@
     ├── includes/
     │   └── camera.h
     └── sources/
+        ├── ft_cam_new.c
         ├── ft_cam_init.c
         ├── ft_cam_lookat.c
-        ├── ft_cam_new.c
         └── ft_view_mat4.c
 └── color/
     ├── colorhsl/
     │   ├── includes/
     │   │   └── colorhsl.h
     │   └── sources/
-    │       ├── ft_hsl_add.c
-    │       ├── ft_hsl_from_rgba.c
     │       ├── ft_hsl_new.c
     │       ├── ft_hsl_default.c
-    │       ├── ft_hsl_lerp.c
-    │       └── ft_hsl_sub.c
+    │       ├── ft_hsl_from_rgba.c
+    │       ├── ft_hsl_add.c
+    │       ├── ft_hsl_sub.c
+    │       └── ft_hsl_lerp.c
     ├── colorrgb/
     │   ├── includes/
     │   │   └── colorrgb.h
     │   └── sources/
+    │       ├── ft_rgb_new.c
     │       ├── ft_rgb_default.c
     │       ├── ft_rgb_from_i.c
-    │       ├── ft_rgb_lerp.c
-    │       ├── ft_rgb_new.c
-    │       └── ft_rgb_to_i.c
+    │       ├── ft_rgb_to_i.c
+    │       └── ft_rgb_lerp.c
     ├── colorrgba/
     │   ├── includes/
     │   │   └── colorrgba.h
     │   └── sources/
-    │       ├── ft_icolor_lerp.c
-    │       ├── ft_rgba_from_hsl.c
     │       ├── ft_rgba_new.c
-    │       ├── ft_rgba_add.c
+    │       ├── ft_rgba_default.c
     │       ├── ft_rgba_from_i.c
+    │       ├── ft_rgba_from_hsl.c
+    │       ├── ft_rgba_add.c
     │       ├── ft_rgba_sub.c
-    │       └── ft_rgba_default.c
+    │       └── ft_icolor_lerp.c
     └── includes/
         └── color.h
 └── debug/
@@ -125,19 +125,19 @@
     │   ├── includes/
     │   │   └── matrix4.h
     │   └── sources/
-    │       ├── ft_mat4_from_aarot.c
-    │       ├── ft_mat4_postmul_quat.c
-    │       ├── ft_mat4_from_eulerrot.c
-    │       ├── ft_mat4_postmul_vector3.c
-    │       ├── ft_mat4_from_quat.c
-    │       ├── ft_mat4_premul_norm_quat.c
-    │       ├── ft_mat4_from_sphrot.c
-    │       ├── ft_mat4_premul_quat.c
-    │       ├── ft_mat4_identity.c
-    │       ├── ft_mat4_premul_vector3.c
-    │       ├── ft_mat4_mul.c
-    │       ├── ft_mat4_scale_from_vector3.c
     │       ├── ft_mat4_null.c
+    │       ├── ft_mat4_identity.c
+    │       ├── ft_mat4_from_aarot.c
+    │       ├── ft_mat4_from_eulerrot.c
+    │       ├── ft_mat4_from_quat.c
+    │       ├── ft_mat4_from_sphrot.c
+    │       ├── ft_mat4_mul.c
+    │       ├── ft_mat4_premul_quat.c
+    │       ├── ft_mat4_premul_norm_quat.c
+    │       ├── ft_mat4_premul_vector3.c
+    │       ├── ft_mat4_postmul_quat.c
+    │       ├── ft_mat4_postmul_vector3.c
+    │       ├── ft_mat4_scale_from_vector3.c
     │       └── ft_mat4_translate_from_vector3.c
     └── matrixX/
         ├── includes/
@@ -156,9 +156,9 @@
     │   ├── includes/
     │   │   └── aarot.h
     │   └── sources/
+    │       ├── ft_aarot_new.c
     │       ├── ft_aarot_from_eulerrot.c
     │       ├── ft_aarot_from_quat.c
-    │       ├── ft_aarot_new.c
     │       ├── ft_aarot_from_mat4.c
     │       ├── ft_aarot_from_sphrot.c
     │       └── ft_aarot_normalize.c
@@ -166,83 +166,84 @@
     │   ├── includes/
     │   │   └── eulerrot.h
     │   └── sources/
-    │       ├── ft_eulerrot_add.c
-    │       ├── ft_eulerrot_from_mat4.c
-    │       ├── ft_eulerrot_lerp.c
-    │       ├── ft_eulerrot_equal.c
-    │       ├── ft_eulerrot_from_quat.c
     │       ├── ft_eulerrot_new.c
     │       ├── ft_eulerrot_from_aarot.c
+    │       ├── ft_eulerrot_from_quat.c
+    │       ├── ft_eulerrot_from_mat4.c
     │       ├── ft_eulerrot_from_sphrot.c
-    │       └── ft_eulerrot_sub.c
-    ├── includes/
-    │   └── rotation.h
+    │       ├── ft_eulerrot_add.c
+    │       ├── ft_eulerrot_sub.c
+    │       ├── ft_eulerrot_equal.c
+    │       └── ft_eulerrot_lerp.c
     ├── quaternion/
     │   ├── includes/
     │   │   └── quaternion.h
     │   └── sources/
-    │       ├── ft_quat_add.c
-    │       ├── ft_quat_from_mat4.c
     │       ├── ft_quat_new.c
-    │       ├── ft_quat_add_n.c
-    │       ├── ft_quat_from_spheric_rot.c
-    │       ├── ft_quat_normalize.c
-    │       ├── ft_quat_crossprod.c
+    │       ├── ft_quat_from_aarot.c
+    │       ├── ft_quat_from_mat4.c
     │       ├── ft_quat_from_vector3.c
+    │       ├── ft_quat_from_spheric_rot.c
+    │       ├── ft_quat_add.c
+    │       ├── ft_quat_sub.c
+    │       ├── ft_quat_add_n.c
+    │       ├── ft_quat_sub_n.c
+    │       ├── ft_quat_mul.c
+    │       ├── ft_quat_equal.c
     │       ├── ft_quat_opp.c
-    │       ├── ft_quat_dotnormalize.c
     │       ├── ft_quat_inv.c
     │       ├── ft_quat_scale.c
+    │       ├── ft_quat_normalize.c
+    │       ├── ft_quat_magn.c
+    │       ├── ft_quat_crossprod.c
+    │       ├── ft_quat_dotnormalize.c
     │       ├── ft_quat_dotprod.c
     │       ├── ft_quat_lerp.c
-    │       ├── ft_quat_slerp.c
-    │       ├── ft_quat_equal.c
-    │       ├── ft_quat_magn.c
-    │       ├── ft_quat_sub.c
-    │       ├── ft_quat_from_aarot.c
-    │       ├── ft_quat_mul.c
-    │       ├── ft_quat_sub_n.c
-    │       └── ft_quat_from_eulerrot.c
+    │       ├── ft_quat_from_eulerrot.c
+    │       └── ft_quat_slerp.c
     ├── sphericRot/
     │   ├── includes/
     │   │   └── sphrot.h
     │   └── sources/
     │       ├── ft_sphrot_from_aarot.c
-    │       ├── ft_sphrot_from_mat4.c
     │       ├── ft_sphrot_from_eulerrot.c
-    │       └── ft_sphrot_from_quat.c
-    └── vector/
+    │       ├── ft_sphrot_from_quat.c
+    │       └── ft_sphrot_from_mat4.c
+    └─ includes/
+       └── rotation.h
+└── vector/
+    ├── includes/
+    │   └── vector.h
+    ├── vector2/
+    │   ├── includes/
+    │   │   └── vector2.h
+    │   └── sources/
+    │       ├── ft_vector2_new.c
+    │       ├── ft_vector2_add.c
+    │       ├── ft_vector2_sub.c
+    │       ├── ft_vector2_equal.c
+    │       ├── ft_vector2_opp.c
+    │       ├── ft_vector2_scale.c
+    │       ├── ft_vector2_magn.c
+    │       ├── ft_vector2_normalize.c
+    │       ├── ft_vector2_det.c
+    │       └── ft_vector2_dotprod.c
+    └── vector3/
         ├── includes/
-        │   └── vector.h
-        ├── vector2/
-        │   ├── includes/
-        │   │   └── vector2.h
-        │   └── sources/
-        │       ├── ft_vector2_add.c
-        │       ├── ft_vector2_magn.c
-        │       ├── ft_vector2_opp.c
-        │       ├── ft_vector2_det.c
-        │       ├── ft_vector2_new.c
-        │       ├── ft_vector2_scale.c
-        │       ├── ft_vector2_dotprod.c
-        │       ├── ft_vector2_normalize.c
-        │       ├── ft_vector2_sub.c
-        │       └── ft_vector2_equal.c
-        └── vector3/
-            ├── includes/
-            │   └── vector3.h
-            └── sources/
-                ├── ft_vector3_add.c
-                ├── ft_vector3_from_quat.c
-                ├── ft_vector3_null.c
-                ├── ft_vector3_crossprod.c
-                ├── ft_vector3_magn.c
-                ├── ft_vector3_opp.c
-                ├── ft_vector3_dotprod.c
-                ├── ft_vector3_new.c
-                ├── ft_vector3_scale.c
-                ├── ft_vector3_equal.c
-                └── ft_vector3_normalize.c
+        │   └── vector3.h
+        └── sources/
+            ├── ft_vector3_new.c
+            ├── ft_vector3_null.c
+            ├── ft_vector3_from_quat.c
+            ├── ft_vector3_add.c
+            ├── ft_vector3_sub.c
+            ├── ft_vector3_opp.c
+            ├── ft_vector3_scale.c
+            ├── ft_vector3_equal.c
+            ├── ft_vector3_magn.c
+            ├── ft_vector3_crossprod.c
+            ├── ft_vector3_dotprod.c
+            └── ft_vector3_normalize.c
 └── vertex/
     ├── includes/
     │   └── vertex.h
@@ -250,39 +251,47 @@
     │   ├── includes/
     │   │   └── vertex2f.h
     │   └── sources/
-    │       ├── ft_vertex2f_add.c
-    │       ├── ft_vertex2f_mul.c
+    │       ├── ft_vertex2f_new.c
     │       ├── ft_vertex2f_null.c
-    │       └── ft_vertex2f_sub.c
+    │       ├── ft_vertex2f_add.c
+    │       ├── ft_vertex2f_sub.c
+    │       ├── ft_vertex2f_mul.c
+    │       ├── ft_vertex2f_div.c
+    │       └── ft_vertex2f_opp.c
     ├── vertex2i/
     │   ├── includes/
     │   │   └── vertex2i.h
     │   └── sources/
-    │       ├── ft_vertex2i_add.c
-    │       ├── ft_vertex2i_mul.c
+    │       ├── ft_vertex2i_new.c
     │       ├── ft_vertex2i_null.c
-    │       └── ft_vertex2i_sub.c
+    │       ├── ft_vertex2i_add.c
+    │       ├── ft_vertex2i_sub.c
+    │       ├── ft_vertex2i_mul.c
+    │       ├── ft_vertex2i_div.c
+    │       └── ft_vertex2i_opp.c
     ├── vertex3f/
     │   ├── includes/
     │   │   └── vertex3f.h
     │   └── sources/
-    │       ├── ft_vertex3f_add.c
-    │       ├── ft_vertex3f_mul.c
-    │       ├── ft_vertex3f_opp.c
-    │       ├── ft_vertex3f_div.c
     │       ├── ft_vertex3f_new.c
+    │       ├── ft_vertex3f_null.c
+    │       ├── ft_vertex3f_add.c
     │       ├── ft_vertex3f_sub.c
+    │       ├── ft_vertex3f_mul.c
+    │       ├── ft_vertex3f_div.c
+    │       ├── ft_vertex3f_opp.c
     │       └── ft_vertex3f_from_vertex3i.c
     └── vertex3i/
         ├── includes/
         │   └── vertex3i.h
         └── sources/
-            ├── ft_vertex3i_add.c
-            ├── ft_vertex3i_mul.c
+            ├── ft_vertex3i_new.c
             ├── ft_vertex3i_null.c
+            ├── ft_vertex3i_add.c
             ├── ft_vertex3i_sub.c
+            ├── ft_vertex3i_mul.c
             ├── ft_vertex3i_div.c
-            └── ft_vertex3i_new.c
+            └── ft_vertex3i_opp.c
 ```
 
 ---
