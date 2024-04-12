@@ -19,7 +19,7 @@
 	<img src="https://img.shields.io/badge/Vim-grey?style=for-the-badge&logo=Vim" alt="Vim">
 	<img src="https://img.shields.io/badge/mlx%2042-%23Edeef1?style=for-the-badge&logo=42&logoColor=black" alt="42 MLX">
    	<img src="https://img.shields.io/badge/VS%20Code-%232b9eed?style=for-the-badge&logo=visualstudiocode&logoColor=%230d67a7" alt="VSCode">
-	<img src="https://img.shields.io/badge/OpenAI-412991.svg?style=flat-square&logo=OpenAI&logoColor=white" alt="OpenAI">
+	<img src="https://img.shields.io/badge/OpenAI-%2377a99c?style=for-the-badge&logo=OpenAI&logoColor=white" alt="OpenAI">
 </p>
 
 <!-- TABLE OF CONTENTS -->
