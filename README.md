@@ -52,7 +52,7 @@
 
 ## 🗂️ Repository Structure
 <details>
-  <summary>Cliquez pour afficher la structure du projet</summary>
+  <summary>Show repository structure </summary>
 
 ```plaintext
 └── README.md
