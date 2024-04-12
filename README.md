@@ -330,4 +330,5 @@ This project isn't protected for the moment.
 - Olivier Crouzet for the minilibX
 - [OpenGL-Tutoriel Developpez.com](https://jeux.developpez.com/tutoriels/OpenGL-ogldev/)
 - [OpenGL-Tutoriel opengl-tutorial.org](https://www.opengl-tutorial.org)
+
 [**Return**](#-overview)
