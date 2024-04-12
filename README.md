@@ -51,8 +51,10 @@
 ---
 
 ## 🗂️ Repository Structure
+<details>
+  <summary>Show repository structure </summary>
 
-```sh
+```plaintext
 └── README.md
 └── camera/
     ├── includes/
@@ -94,6 +96,7 @@
     │       ├── ft_rgba_sub.c
     │       └── ft_icolor_lerp.c
     └── includes/
+	├── colorstruct.h
         └── color.h
 └── debug/
     ├── includes/
@@ -114,6 +117,7 @@
         └── ft_vieport_tlc.c
 └── matrix/
     ├── includes/
+    │	├── matrixstruct.h
     │   └── matrix.h
     ├── matrix2/
     │   ├── includes/
@@ -183,7 +187,7 @@
     │       ├── ft_quat_from_aarot.c
     │       ├── ft_quat_from_mat4.c
     │       ├── ft_quat_from_vector3.c
-    │       ├── ft_quat_from_spheric_rot.c
+    │       ├── ft_quat_from_sphrot.c
     │       ├── ft_quat_add.c
     │       ├── ft_quat_sub.c
     │       ├── ft_quat_add_n.c
@@ -210,9 +214,11 @@
     │       ├── ft_sphrot_from_quat.c
     │       └── ft_sphrot_from_mat4.c
     └─ includes/
+       |── rotationstruct.h
        └── rotation.h
 └── vector/
     ├── includes/
+    │	├── vectorstruct.h
     │   └── vector.h
     ├── vector2/
     │   ├── includes/
@@ -231,7 +237,7 @@
     └── vector3/
         ├── includes/
         │   └── vector3.h
-        └── sources/
+        └── sourceGs/
             ├── ft_vector3_new.c
             ├── ft_vector3_null.c
             ├── ft_vector3_from_quat.c
@@ -246,6 +252,7 @@
             └── ft_vector3_normalize.c
 └── vertex/
     ├── includes/
+    │	├── vertexstruct.h
     │   └── vertex.h
     ├── vertex2f/
     │   ├── includes/
@@ -293,7 +300,7 @@
             ├── ft_vertex3i_div.c
             └── ft_vertex3i_opp.c
 ```
-
+</details>
 ---
 
 ## 📦 Modules
@@ -302,7 +309,6 @@
 
 **System Requirements:**
 
-* **Python**: `version x.y.z`
 
 ### ⚙️ Installation
 
@@ -311,13 +317,13 @@
 > 1. Clone the libgraphic repository:
 >
 > ```console
-> $ git clone https://github.com/eli64s/readme-ai
+> $ git clone https://github.com/lvoneduval/libgraphic
 > ```
 >
 
 ## 🛠 Project Roadmap
 
-- [ ] `► MAKEFILE`
+- [X] `► MAKEFILE`
 - [ ] `► DEPENDENCIES:`
 - [ ] `► ADD MATRIX2`
 - [ ] `► ADD MATRIX3`
