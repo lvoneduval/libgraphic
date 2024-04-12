@@ -21,8 +21,8 @@ OBJ_DIR =			.objects
 
 # Directories
 CAMERA_DIR			:=	camera
-COLOR_RGB_DIR		:=	color/colorrgb 
-COLOR_RGBA_DIR		:=	color/colorrgba 
+COLOR_RGB_DIR		:=	color/colorrgb
+COLOR_RGBA_DIR		:=	color/colorrgba
 COLOR_HSL_DIR		:=	color/colorhsl
 DEBUG_DIR			:=	debug
 G_MATH_DIR			:=	graphic_math
@@ -32,7 +32,7 @@ ROTATION_AA_DIR	:=	rotation/axeAngleRot
 ROTATION_EULER_DIR	:= rotation/eulerRot
 ROTATION_QUAT_DIR	:=	rotation/quaternion
 ROTATION_SPH_DIR	:= rotation/sphericRot
-VECTOR2_DIR			:=	vector/vector2 
+VECTOR2_DIR			:=	vector/vector2
 VECTOR3_DIR			:=	vector/vector3
 VERTEX2F_DIR		:=	vertex/vertex2f
 VERTEX2I_DIR		:=	vertex/vertex2i
@@ -252,6 +252,28 @@ VERTEX2I_SRCS		:= $(addprefix $(VERTEX2I_DIR)/sources/, $(VERTEX2I_FILES))
 VERTEX3F_SRCS		:= $(addprefix $(VERTEX3F_DIR)/sources/, $(VERTEX3F_FILES))
 VERTEX3I_SRCS		:= $(addprefix $(VERTEX3I_DIR)/sources/, $(VERTEX3I_FILES))
 
+SOURCES := $(CAMERA_SRCS) $(COLOR_RGB_SRCS) $(COLOR_RGBA_SRCS) $(COLOR_HSL_SRCS) $(DEBUG_SRCS) $(G_MATH_SRCS) $(MATRIX4_SRCS) $(MLX_TOOLS_SRCS) $(ROTATION_AA_SRCS) $(ROTATION_EULER_SRCS) $(ROTATION_QUAT_SRCS) $(ROTATION_SPH_SRCS) $(VECTOR2_SRCS) $(VECTOR3_SRCS) $(VERTEX2F_SRCS) $(VERTEX2I_SRCS) $(VERTEX3F_SRCS) $(VERTEX3I_SRCS)
+
+VPATH	:= \
+	$(CAMERA_DIR)/$(SRC_DIR) \
+	$(COLOR_RGB_DIR)/$(SRC_DIR) \
+	$(COLOR_RGBA_DIR)/$(SRC_DIR) \
+	$(COLOR_HSL_DIR)/$(SRC_DIR) \
+	$(DEBUG_DIR)/$(SRC_DIR) \
+	$(G_MATH_DIR)/$(SRC_DIR) \
+	$(MATRIX4_DIR)/$(SRC_DIR) \
+	$(MLX_TOOLS_DIR)/$(SRC_DIR) \
+	$(ROTATION_AA_DIR)/$(SRC_DIR) \
+	$(ROTATION_EULER_DIR)/$(SRC_DIR) \
+	$(ROTATION_QUAT_DIR)/$(SRC_DIR) \
+	$(ROTATION_SPH_DIR)/$(SRC_DIR) \
+	$(VECTOR2_DIR)/$(SRC_DIR) \
+	$(VECTOR3_DIR)/$(SRC_DIR) \
+	$(VERTEX2F_DIR)/$(SRC_DIR) \
+	$(VERTEX2I_DIR)/$(SRC_DIR) \
+	$(VERTEX3F_DIR)/$(SRC_DIR) \
+	$(VERTEX3I_DIR)/$(SRC_DIR)
+
 # Includes paths
 INCLUDES =	\
 	-I $(CAMERA_DIR)/$(INC_DIR) \
@@ -276,7 +298,7 @@ INCLUDES =	\
 	-I $(MATRIX_DIR)/$(INC_DIR) \
 	-I $(ROTATION_DIR)/$(INC_DIR) \
 	-I $(VECTOR_DIR)/$(INC_DIR) \
-	-I $(VERTEX_DIR)/$(INC_DIR) \
+	-I $(VERTEX_DIR)/$(INC_DIR) 
 
 # Objects
 LIBGR_OBJS = $(patsubst %,$(OBJ_DIR)/%,$(notdir $(SOURCES:.c=.o)))
@@ -303,8 +325,7 @@ $(OBJ_DIR)/%.o: %.c Makefile
 	@$(eval TO_DO=$(shell echo $$((20-$(INDEX)*20/$(NB) - 1))))
 	@$(eval COLOR=$(shell list=(160 196 202 208 215 221 226 227 190 154 118 82 46); index=$$(($(PERCENT) * $${#list[@]} / 100)); echo "$${list[$$index]}"))
 	@printf "\r> $(YELLOW)$(NAME)$(EOC) : Building objects...    %2d%% $(CNO)[`printf '#%.0s' {0..$(DONE)}`%*s]$(YELLOW)%*.*s%s$(EOC)$(ERASELN)" $(PERCENT) $(COLOR) $(TO_DO) "" $(DELTA) $(DELTA) "$(shell echo "$@" | sed 's/^.*\///')"
-	$(CC) -c $< -o $@ $(CFLAGS) $(CPPFLAGS) $(DEPFLAGS)
-	print "ouououououou"
+	@$(CC) -c $< -o $@ $(CFLAGS) $(CPPFLAGS) $(DEPFLAGS)
 	@$(eval INDEX=$(shell echo $$(($(INDEX)+1))))
 
 # -- RULES --
