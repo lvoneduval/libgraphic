@@ -1,5 +1,5 @@
 #include "../includes/aarot.h"
-
+#include "../../quaternion/includes/quaternion.h"
 t_aarot ft_aarot_from_eulerrot(t_eulerrot euler)
 {
     t_quat quat;

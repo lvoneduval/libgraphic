@@ -1,11 +1,8 @@
 #ifndef VERTEX3I_H
 # define VERTEX3I_H
-typedef struct s_vertex3i {
-  int x;
-  int y;
-  int z;
-} t_vertex3i;
-t_vertex3i ft_vertex3i_new(int x, int y);
+#include "../../includes/vertexstruct.h"
+
+t_vertex3i ft_vertex3i_new(int x, int y, int z);
 
 // Macro pour déclarer les prototypes de fonctions pour un type de vertex donné
 #define DEFINE_VERTEX_OPERATIONS(full_type, short_type) \

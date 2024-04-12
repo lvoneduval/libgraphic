@@ -1,4 +1,6 @@
 #include "../includes/aarot.h"
+#include "../../quaternion/includes/quaternion.h"
+
 t_aarot ft_aarot_from_mat4(t_matrix4 mat)
 {
     t_quat quat;

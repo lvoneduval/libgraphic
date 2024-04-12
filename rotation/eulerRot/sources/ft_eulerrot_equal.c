@@ -1,4 +1,5 @@
 #include "../includes/eulerrot.h"
+#include <math.h>
 
 int ft_eulerrot_equal(t_eulerrot a, t_eulerrot b, float tolerance)
 {

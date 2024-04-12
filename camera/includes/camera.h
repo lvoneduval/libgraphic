@@ -7,6 +7,7 @@
 
 #include "../../matrix/includes/matrix.h"
 #include "../../vector/includes/vector.h"
+#include "../../libgraphic_macros.h"
 #include <stdio.h>
 
 typedef struct	s_camera

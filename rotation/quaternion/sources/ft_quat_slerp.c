@@ -1,4 +1,5 @@
 #include "../includes/quaternion.h"
+#include <math.h>
 
 t_quat ft_quat_slerp(t_quat a, t_quat b, float alpha)
 {

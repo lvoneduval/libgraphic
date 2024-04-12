@@ -1,4 +1,5 @@
 #include "../includes/quaternion.h"
+#include <math.h>
 
 t_quat	ft_quat_normalize(t_quat q)
 {

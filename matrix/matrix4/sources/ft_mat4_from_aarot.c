@@ -1,5 +1,6 @@
 #include "../includes/matrix4.h"
-
+#include "../../../rotation/axeAngleRot/includes/aarot.h" 
+#include <math.h>
 t_matrix4			ft_mat4_from_aarot(t_aarot rot)
 {
  	t_matrix4	dst;

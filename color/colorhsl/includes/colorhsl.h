@@ -6,14 +6,7 @@
 #define DEFAULT_LIGHTNESS_VALUE 50.0
 
 #include <math.h>
-#include "../../colorrgba/includes/colorrgba.h"
-
-typedef struct s_colorhsl
-{
-    float hue;        // Teinte (0-360 degrés)
-    float saturation; // Saturation (0-100, représentant un pourcentage)
-    float lightness;  // Luminosité (0-100, représentant un pourcentage)
-} t_colorhsl;
+#include "../../includes/colorstruct.h"
 
 t_colorhsl ft_hsl_new(float hue, float saturation, float lightness);
 t_colorhsl ft_hsl_default(void);

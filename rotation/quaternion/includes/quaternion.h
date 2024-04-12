@@ -1,28 +1,17 @@
 #ifndef QUATERNION_H
 # define QUATERNION_H
 
-#include "../../axeAngleRot/includes/aarot.h"
-#include "../../sphericRot/includes/sphrot.h"
-#include "../../eulerRot/includes/eulerrot.h"
-#include "../../../vector/includes/vector.h"
-#include "../../../matrix/includes/matrix.h"
-
-#include <math.h>
-
-typedef struct s_quat
-{
-  float x;
-  float y;
-  float z;
-  float w;
-}             t_quat; 
+#include "../../includes/rotationstruct.h"
+#include "../../../matrix/includes/matrixstruct.h"
+#include "../../../vector/includes/vectorstruct.h"
+#include "../../../vertex/includes/vertexstruct.h"
 
 // ft_quat_constructors
 t_quat	ft_quat_new(float x, float y, float z, float w);
 t_quat	ft_quat_from_aarot(t_aarot rot);
 t_quat  ft_quat_from_eulerrot(t_eulerrot euler);
 t_quat	ft_quat_from_mat4(t_matrix4 m);
-t_quat	ft_quat_from_spheric_rot(t_sphrot rot);
+t_quat	ft_quat_from_sphrot(t_sphrot rot);
 t_quat  ft_quat_from_vector3(t_vector3 v, float w);
 
 int		  ft_quat_equal(t_quat q1, t_quat q2);

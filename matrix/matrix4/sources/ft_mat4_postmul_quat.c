@@ -2,7 +2,7 @@
 
 t_quat	ft_mat4_postmul_quat(t_quat q, t_matrix4 m)
 {
-	t_quater	dst;
+	t_quat	dst;
 
 	dst.x = q.x * m.array[0][0] + q.y * m.array[0][1]
 			+ q.z * m.array[0][2] + q.w * m.array[0][3];

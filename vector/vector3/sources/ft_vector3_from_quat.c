@@ -1,4 +1,4 @@
-
+#include "../includes/vector3.h"
 /*
 **	->	Convert t_quat to t_vector3
 */

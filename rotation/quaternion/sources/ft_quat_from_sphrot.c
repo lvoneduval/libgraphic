@@ -1,6 +1,7 @@
 #include "../includes/quaternion.h"
+#include <math.h>
 
-t_quat	ft_quat_from_spheric_rot(t_sphrot rot)
+t_quat	ft_quat_from_sphrot(t_sphrot rot)
 {
 	t_quat	dst;
 	float		sin_a;

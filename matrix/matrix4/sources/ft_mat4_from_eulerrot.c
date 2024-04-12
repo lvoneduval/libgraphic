@@ -1,5 +1,5 @@
 #include "../includes/matrix4.h"
-
+#include <math.h>
 static t_matrix4	ft_gen_rot_x(float rad_angle_x)
 {
 	t_matrix4	rot_x;
@@ -91,7 +91,7 @@ t_matrix4 ft_mat4_from_eulerrot(t_eulerrot euler)
     rot_x = ft_gen_rot_x(euler.x);
     rot_y = ft_gen_rot_y(euler.y);
     rot_z = ft_gen_rot_z(euler.z);
-    dst = ft_mat4_mul_mat4(rot_z, rot_y);
-    dst = ft_mat4_mul_mat4(rot_x, dst);
+    dst = ft_mat4_mul(rot_z, rot_y);
+    dst = ft_mat4_mul(rot_x, dst);
     return dst;
 }

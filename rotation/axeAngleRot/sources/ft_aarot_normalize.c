@@ -1,4 +1,5 @@
 #include "../includes/aarot.h"
+#include <math.h>
 
 t_aarot ft_aarot_normalize(t_aarot rot)
 {

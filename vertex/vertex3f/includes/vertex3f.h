@@ -1,10 +1,6 @@
 #ifndef VERTEX3F_H
 # define VERTEX3F_H
-typedef struct s_vertex3f {
-  float x;
-  float y;
-  float z;
-} t_vertex3f;
+#include "../../includes/vertexstruct.h"
 t_vertex3f  ft_vertex3f_new(float x, float y, float z);
 t_vertex3f	ft_vertex3f_from_vertex3i(t_vertex3i v);
 

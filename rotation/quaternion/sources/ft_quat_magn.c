@@ -1,4 +1,5 @@
 #include "../includes/quaternion.h"
+#include <math.h>
 
 float	ft_quat_magn(t_quat q)
 {

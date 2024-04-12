@@ -1,5 +1,6 @@
 #include "../includes/aarot.h"
-
+#include "../../quaternion/includes/quaternion.h"
+#include <math.h>
 t_aarot   ft_aarot_from_quat(t_quat q)
 {
 	float		angle;

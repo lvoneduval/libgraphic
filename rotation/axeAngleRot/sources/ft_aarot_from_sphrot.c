@@ -1,5 +1,6 @@
 
 #include "../includes/aarot.h"
+#include <math.h>
 t_aarot ft_aarot_from_sphrot(t_sphrot sphrot)
 {
     t_aarot aarot;

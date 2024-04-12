@@ -1,10 +1,7 @@
 #ifndef VERTEX2I_H
 # define VERTEX2I_H
 
-typedef struct s_vertex2i {
-  int x;
-  int y;
-} t_vertex2i;
+#include "../../includes/vertexstruct.h"
 t_vertex2i ft_vertex2i_new(int x, int y);
 
 // Macro pour déclarer les prototypes de fonctions pour un type de vertex donné

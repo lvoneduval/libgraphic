@@ -1,11 +1,7 @@
 #ifndef VECTOR2_H
 # define VECTOR2_H
 
-typedef struct	s_vector2
-{
-	float		x;
-	float		y;
-}				t_vector2;
+#include "../../includes/vectorstruct.h"
 
 t_vector2		ft_vector2_new(float x, float y);
 t_vector2		ft_vector2_null(void);

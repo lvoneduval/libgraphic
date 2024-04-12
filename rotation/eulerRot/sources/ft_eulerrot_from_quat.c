@@ -1,4 +1,5 @@
 #include "../includes/eulerrot.h"
+#include <math.h>
 /*
 ** Converts a quaternion to Euler angles (rotation around X, Y, and Z axes).
 */

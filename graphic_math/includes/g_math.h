@@ -5,7 +5,8 @@
 #include "../../vertex/includes/vertex.h"
 #include "../../vector/includes/vector.h"
 #include "../../matrix/includes/matrix.h"
-
+#include "../../rotation/includes/rotation.h"
+#include "../../libgraphic_macros.h"
 
 #include <math.h>
 

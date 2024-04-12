@@ -1,13 +1,9 @@
 #ifndef MATRIX4_H
 # define MATRIX4_H
 
-#include "../../../rotation/includes/rotation.h"
-#include <math.h>
-
-typedef struct	s_matrix4
-{
-	float		array[4][4];
-}               t_matrix4;
+#include "../../../rotation/includes/rotationstruct.h"
+#include "../../../vector/includes/vectorstruct.h"
+#include "../../includes/matrixstruct.h"
 
 t_matrix4	ft_mat4_null(void);
 t_matrix4	ft_mat4_identity(void);

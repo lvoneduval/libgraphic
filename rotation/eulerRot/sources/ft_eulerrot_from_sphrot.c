@@ -1,4 +1,5 @@
 #include "../includes/eulerrot.h"
+#include "../../quaternion/includes/quaternion.h"
 /*
 ** Converts a spherical rotation to Euler angles.
 */

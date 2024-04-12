@@ -1,4 +1,5 @@
 #include "../includes/eulerrot.h"
+#include "../../quaternion/includes/quaternion.h"
 /*
 ** Converts an axis-angle rotation to Euler angles.
 */

@@ -1,4 +1,6 @@
 #include "../includes/sphrot.h"
+#include "../../quaternion/includes/quaternion.h"
+#include <math.h>
 /*
 ** Converts a 4x4 rotation matrix to a spherical rotation.
 */

@@ -1,4 +1,6 @@
 #include "../includes/camera.h"
+#include <stdlib.h>
+#include <math.h>
 
 t_camera	*ft_cam_new(float fov, float ratio, float near, float far)
 {

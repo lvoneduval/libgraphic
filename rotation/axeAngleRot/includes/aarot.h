@@ -1,14 +1,8 @@
 #ifndef AAROT_H
 #define AAROT_H
-#include <math.h>
-#include "../../quaternion/includes/quaternion.h"
 
-typedef struct s_aarot {
-    float x;   // X component of the axis
-    float y;   // Y component of the axis
-    float z;   // Z component of the axis
-    float angle; // Rotation angle in radians
-} t_aarot;
+#include "../../includes/rotationstruct.h"
+#include "../../../matrix/includes/matrixstruct.h"
 
 t_aarot ft_aarot_new(float x, float y, float z, float angle);
 t_aarot ft_aarot_from_sphrot(t_sphrot sphrot);

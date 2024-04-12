@@ -1,5 +1,5 @@
 #include "../includes/matrix4.h"
-
+#include <math.h>
 /*
 ** Converts a spherical rotation to a 4x4 rotation matrix.
 ** Using Rodrigues algorithme.
