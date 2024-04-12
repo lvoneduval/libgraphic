@@ -53,7 +53,7 @@
 ## 🗂️ Repository Structure
 <details>
   <summary>Table of Contents</summary>
-```sh
+```plaintext
 └── README.md
 └── camera/
     ├── includes/
