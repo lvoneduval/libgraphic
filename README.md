@@ -10,7 +10,7 @@
 <p align="center">
 	<img src="https://img.shields.io/github/last-commit/lvoneduval/libgraphic?style=for-the-badge&color=blue" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/lvoneduval/libgraphic?style=for-the-badge&logo=C" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/eli64s/readme-ai?style=for-the-badge&color=0080ff" alt="repo-language-count">
+	<img src="https://img.shields.io/github/languages/count/lvoneduval/libgraphic?style=for-the-badge&color=0080ff" alt="repo-language-count">
 <p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
@@ -55,7 +55,7 @@
 ## 🗂️ Repository Structure
 
 ```sh
-└── README.txt
+└── README.md
 └── camera/
     ├── includes/
     │   └── camera.h
@@ -307,15 +307,6 @@
 > $ git clone https://github.com/eli64s/readme-ai
 > ```
 >
-> 2. Change to the project directory:
-> ```console
-> $ cd readme-ai
-> ```
->
-> 3. Install the dependencies:
-> ```console
-> $ pip install -r requirements.txt
-> ```
 
 ## 🛠 Project Roadmap
 
