@@ -52,7 +52,8 @@
 
 ## 🗂️ Repository Structure
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Cliquez pour afficher la structure du projet</summary>
+
 ```plaintext
 └── README.md
 └── camera/
