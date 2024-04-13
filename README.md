@@ -51,8 +51,8 @@
    See [mlx_tools.h](mlx_tools/includes/mlx_tools.h) for details  
 
 ### Colors
-   `RGB & RGBA & HSL` colors utilities  
-   See [colors.h](color/includes/colors.h) for details  
+   `RGB , RGBA & HSL` colors utilities  
+   See [color.h](color/includes/color.h) for details  
 
 ### Vertexes
    Functions for handling `2D & 3D integer/float` vertexes  
@@ -63,12 +63,11 @@
    See [vector.h](vector/includes/vector.h) for details  
 
 ### Rotations
-   Functions for handling `Euler Rotation, Axe Angle Rotation, Spheric Rotation, Quaternion`
-   
-   See [quaternions.h](rotation/includes/rotation.h) for details  
+   Functions for handling rotations  
+   See [Rotation.h](rotation/includes/rotation.h) for details  
 
 ### Matrix
-   Functions for handling `4D integer/float` matrix (more soon) 
+   Functions for handling `4D integer/float` matrix  
    See [matrix.h](matrix/includes/matrix.h) for details  
 
 ### Camera
@@ -77,7 +76,7 @@
 
 ### Graphics maths
    Useful graphics maths functions  
-   See [g_maths.h](graphic_maths/includes/g_maths.h) for details  
+   See [g_maths.h](g_maths/includes/g_maths.h) for details  
 
 ### Debug
    Poor debug functions, still needs a big improvement  
