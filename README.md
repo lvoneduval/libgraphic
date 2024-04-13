@@ -323,9 +323,8 @@ Libgraphic is designed to be extensible, high-performing, and user-friendly, sui
             └── ft_vertex3i_opp.c
 ```
 </details>
----
 
-## 📦 Modules
+---
 
 ## 🚀 Getting Started
 
@@ -356,8 +355,8 @@ Libgraphic is designed to be extensible, high-performing, and user-friendly, sui
 >
 > 4. Documentation:
 >
-> 
->
+
+---
 
 ## 🛠 Project Roadmap
 
