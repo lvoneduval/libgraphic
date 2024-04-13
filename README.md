@@ -320,6 +320,22 @@
 > $ git clone https://github.com/lvoneduval/libgraphic
 > ```
 >
+> 2. Pull the submodules:
+>
+> ```console
+> $ git clone https://github.com/lvoneduval/libgraphic
+> ```
+>
+> 3. Add the header into your files:
+>
+> ```c
+> #include "<path to libgraphic>/libraphic.h"
+> ```
+>
+> 4. Documentation:
+>
+> 
+>
 
 ## 🛠 Project Roadmap
 
