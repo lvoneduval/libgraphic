@@ -63,7 +63,8 @@
    See [vector.h](vector/includes/vector.h) for details  
 
 ### Rotations
-   Functions for handling rotations (Euler Rotation, Axe Angle Rotation, Spheric Rotation, Quaternion) 
+   Functions for handling `Euler Rotation, Axe Angle Rotation, Spheric Rotation, Quaternion`
+   
    See [quaternions.h](rotation/includes/rotation.h) for details  
 
 ### Matrix
