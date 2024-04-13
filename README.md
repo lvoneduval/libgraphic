@@ -46,7 +46,41 @@
 
 ## 🧩 Features
 
-<code>► INSERT-TEXT-HERE</code>
+### Mlx tools
+   Utilities for 42's MLX graphics library  
+   See [mlx_tools.h](mlx_tools/includes/mlx_tools.h) for details  
+
+### Colors
+   `RGB & RGBA & HSL` colors utilities  
+   See [colors.h](color/includes/colors.h) for details  
+
+### Vertexes
+   Functions for handling `2D & 3D integer/float` vertexes  
+   See [vertex.h](vertex/includes/vertex.h) for details  
+
+### Vectors
+   Functions for handling `2D & 3D float` vectors  
+   See [vector.h](vector/includes/vector.h) for details  
+
+### Rotations
+   Functions for handling rotations (Euler Rotation, Axe Angle Rotation, Spheric Rotation, Quaternion)
+   See [quaternions.h](rotation/includes/rotation.h) for details  
+
+### Matrix
+   Functions for handling `4D integer/float` matrix (more soon) 
+   See [matrix.h](matrix/includes/matrix.h) for details  
+
+### Camera
+   Tools to quickly set camera based on `pinhole model`  
+   See [camera.h](camera/includes/camera.h) for details  
+
+### Graphics maths
+   Useful graphics maths functions  
+   See [g_maths.h](graphic_maths/includes/g_maths.h) for details  
+
+### Debug
+   Poor debug functions, still needs a big improvement  
+   See [debug.h](debug/includes/debug.h) for details  
 
 ---
 
@@ -340,10 +374,9 @@
 ## 🛠 Project Roadmap
 
 - [X] `► MAKEFILE`
-- [ ] `► DEPENDENCIES:`
-- [ ] `► ADD MATRIX2`
-- [ ] `► ADD MATRIX3`
-- [ ] `► ADD MATRIXX` 
+- [X] `► DEPENDENCIES:`
+- [ ] `► DOCUMENTATION:`
+- [ ] `► ADD MATRIX` 
 - [ ] `► UPDATE DEBUG`
 
 ---
