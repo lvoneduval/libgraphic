@@ -31,7 +31,6 @@
 - [🗂️ Repository Structure](#️-repository-structure)
 - [🚀 Getting Started](#-getting-started)
   - [⚙️ Installation](#️-installation)
-  - [🤖 Usage](#-usage)
 - [🛠 Project Roadmap](#-project-roadmap)
 - [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
@@ -63,11 +62,11 @@
    See [vector.h](vector/includes/vector.h) for details  
 
 ### Rotations
-   Functions for handling rotations  
+   Functions for handling `Quaternion, Euler, Spheric, Axe Angle` rotations  
    See [Rotation.h](rotation/includes/rotation.h) for details  
 
 ### Matrix
-   Functions for handling `4D integer/float` matrix  
+   Functions for handling `4D integer/float` matrix (more soon)  
    See [matrix.h](matrix/includes/matrix.h) for details  
 
 ### Camera
