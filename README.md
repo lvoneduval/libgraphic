@@ -31,7 +31,6 @@
 - [🗂️ Repository Structure](#️-repository-structure)
 - [🚀 Getting Started](#-getting-started)
   - [⚙️ Installation](#️-installation)
-  - [🤖 Usage](#-usage)
 - [🛠 Project Roadmap](#-project-roadmap)
 - [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
@@ -40,13 +39,36 @@
 
 ## 📍 Overview
 
-<code>► INSERT-TEXT-HERE</code>
+Libgraphic is a C library crafted to streamline the development of visually-rich applications using 42's MLX graphics library. It provides a robust abstraction layer for direct pixel drawing, color manipulation, and complex geometric transformations, making interactive graphics development both straightforward and powerful.
 
 ---
 
 ## 🧩 Features
 
-<code>► INSERT-TEXT-HERE</code>
+### Mlx tools 
+Libgraphic integrates dedicated utilities for the MLX library, enhancing its native graphical capabilities while simplifying the programming interface. Specific functions are designed to optimize and extend the library's features as detailed.  
+See [mlx_tools.h](mlx_tools/includes/mlx_tools.h) for details  
+
+### Advanced Color Management
+   Handling colors precisely is crucial for design, simulation, or gaming applications. Libgraphic offers utilities for managing RGB, RGBA, and HSL color spaces, including quick conversions between these formats and tools for adjusting brightness, saturation, and other color properties.  
+   See [color.h](color/includes/color.h) for details  
+
+### Vertex and Vector Manipulation
+   Efficient vertex and vector management is key for 3D rendering or physical simulations. LibGraphic provides robust functions for handling 2D and 3D vertices in integer and float types, and 2D and 3D float vectors, simplifying everything from shape transformations to dynamics management.   
+   See [vertex.h](vertex/includes/vertex.h) or [vector.h](vector/includes/vector.h) for details  
+
+### Rotation Systems and Matrices
+   With advanced functions for handling rotations via quaternions, Euler angles, spheric rotations, and axe angles, Libgraphic allows for precise and flexible orientation and transformation management. Support for 4D matrices for 3D space transformations is also included, promising future enhancements.  
+   See [rotation.h](rotation/includes/rotation.h) or [matrix.h](matrix/includes/matrix.h) for details 
+
+### Camera Modeling and Graphics Mathematics
+   Libgraphic also simplifies the setup of cameras based on the pinhole model, enabling quick and easy adjustments for realistic renderings. The provided graphics math functions further extend the library’s capabilities in image and shape manipulation.  
+   See [camera.h](camera/includes/camera.h) for details   
+
+### Debugging and Optimization
+   Poor debug functions, still needs a big improvement  
+   See [debug.h](debug/includes/debug.h) for details  
+Libgraphic is designed to be extensible, high-performing, and user-friendly, suitable for any graphic project you plan to undertake.
 
 ---
 
@@ -301,9 +323,8 @@
             └── ft_vertex3i_opp.c
 ```
 </details>
----
 
-## 📦 Modules
+---
 
 ## 🚀 Getting Started
 
@@ -320,14 +341,29 @@
 > $ git clone https://github.com/lvoneduval/libgraphic
 > ```
 >
+> 2. Pull the submodules:
+>
+> ```console
+> $ git clone https://github.com/lvoneduval/libgraphic
+> ```
+>
+> 3. Add the header into your files:
+>
+> ```c
+> #include "<path to libgraphic>/libraphic.h"
+> ```
+>
+> 4. Documentation:
+>
+
+---
 
 ## 🛠 Project Roadmap
 
 - [X] `► MAKEFILE`
-- [ ] `► DEPENDENCIES:`
-- [ ] `► ADD MATRIX2`
-- [ ] `► ADD MATRIX3`
-- [ ] `► ADD MATRIXX` 
+- [X] `► DEPENDENCIES:`
+- [ ] `► DOCUMENTATION:`
+- [ ] `► ADD MATRIX` 
 - [ ] `► UPDATE DEBUG`
 
 ---
