@@ -1,4 +1,4 @@
-### init_mlxenv
+# init_mlxenv
 Creates and initializes a new window using MiniLibX..
 
 #### Parameters
@@ -18,7 +18,7 @@ if (!win) {
 }
 ```
 
-### Related Documentation
+## Related Documentation
 - [t_mlxenv](./t_mlxenv.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
 
