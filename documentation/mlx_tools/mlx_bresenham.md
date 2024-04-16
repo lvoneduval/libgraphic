@@ -1,4 +1,4 @@
-## mlx_bresenham
+# mlx_bresenham
 Draws a line between two points using Bresenham's line drawing algorithm, which is efficient for creating a straight line with a discrete raster.
 
 #### Parameters
@@ -19,7 +19,7 @@ if (image) {
 }
 ```
 
-### Related Documentation
+## Related Documentation
 - [t_mlximg](./t_mlximg.md)
 - [t_vertex2i](../vertex/vertex2i/vertex2i.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
