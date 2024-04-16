@@ -1,6 +1,4 @@
-## Deletion Function Documentation
-
-### del_mlxenv
+# del_mlxenv
 Frees the MiniLibX environment object.
 
 #### Parameters
