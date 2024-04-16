@@ -19,7 +19,7 @@ if (image) {
 }
 ```
 
-### Related Documentation
+## Related Documentation
 - [t_mlximg](./t_mlxbuf.md)
 - [t_vertex2i](../vertex/vertex2i/vertex2i.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
