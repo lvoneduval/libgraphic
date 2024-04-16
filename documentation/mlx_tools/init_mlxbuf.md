@@ -1,4 +1,4 @@
-### init_mlxfbuf
+# init_mlxfbuf
 Initializes a framebuffer that can hold multiple frames/images.
 
 ### Parameters
@@ -17,8 +17,7 @@ if (!fbuf) {
     fprintf(stderr, "Failed to initialize framebuffer.\n");
 }
 ```
-
-### Related Documentation
+## Related Documentation
 - [t_mlxbuf](./t_mlxbuf.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
 
