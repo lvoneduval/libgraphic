@@ -19,4 +19,5 @@ if (!win) {
 ```
 
 ### Related Documentation
-[t_mlxenv](./t_mlxenv.md)
+- [t_mlxenv](./t_mlxenv.md)
+- [mlx_tools_doc](./mlx-tools-doc.md)

@@ -17,4 +17,5 @@ win = NULL;
 ```
 
 ### Related Documentation
-[t_mlxwin](./t_mlxwin.md)
+- [t_mlxwin](./t_mlxwin.md)
+- [mlx_tools_doc](./mlx-tools-doc.md)

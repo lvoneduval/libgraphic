@@ -10,3 +10,4 @@ This structure describes a window within the MiniLibX environment.
 
 - [init_mlxwin](./init_mlxwin.md)
 - [del_mlxwin](./del_mlxwin.md)
+- [mlx_tools_doc](./mlx-tools-doc.md)

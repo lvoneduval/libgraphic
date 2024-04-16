@@ -16,3 +16,4 @@ fbuf = NULL;
 
 ### Related Documentation
 [t_mlxbuf](./t_mlxbuf.md)
+[mlx_tools_doc](./mlx-tools-doc.md)

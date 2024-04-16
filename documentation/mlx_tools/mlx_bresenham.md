@@ -20,5 +20,6 @@ if (image) {
 ```
 
 ### Related Documentation
-[t_mlximg](./t_mlximg.md)
-[t_vertex2i](../vertex/vertex2i/vertex2i.md)
+- [t_mlximg](./t_mlximg.md)
+- [t_vertex2i](../vertex/vertex2i/vertex2i.md)
+- [mlx_tools_doc](./mlx-tools-doc.md)

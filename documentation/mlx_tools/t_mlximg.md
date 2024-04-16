@@ -17,3 +17,4 @@ This structure defines an image within the MiniLibX environment.
 - [pixel_to_img](./pixel_to_img.md)
 - [mlx_bresenham](./mlx_bresenham.md)
 - [fast_line](./fast_line.md)
+- [mlx_tools_doc](./mlx-tools-doc.md)

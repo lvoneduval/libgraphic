@@ -6,3 +6,4 @@ This structure represents the MiniLibX environment setup.
 ### Related Functions
 - [init_mlxenv](./del_mlxenv.md)
 - [del_mlxenv](./del_mlxenv.md)
+- [mlx_tools_doc](./mlx-tools-doc.md)
