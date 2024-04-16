@@ -1,4 +1,4 @@
-### del_mlxfbuf
+# del_mlxfbuf
 Destroys all images within a framebuffer and frees the framebuffer.
 
 #### Parameters
