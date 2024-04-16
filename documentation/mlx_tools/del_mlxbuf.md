@@ -13,3 +13,5 @@ Destroys all images within a framebuffer and frees the framebuffer.
 del_mlxfbuf(env->init_id, fbuf);
 fbuf = NULL;
 ```
+
+### Related Documentation
