@@ -1,4 +1,4 @@
-### t_mlxwin
+# t_mlxwin
 This structure describes a window within the MiniLibX environment.
 
 - `id` - The window identifier.
@@ -6,7 +6,7 @@ This structure describes a window within the MiniLibX environment.
 - `height` - The height of the window.
 - `title` - The title of the window.
 
-### Related Function
+## Related Function
 
 - [init_mlxwin](./init_mlxwin.md)
 - [del_mlxwin](./del_mlxwin.md)
