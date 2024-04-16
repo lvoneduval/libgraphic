@@ -52,7 +52,7 @@ This structure represents a framebuffer that contains multiple frames.
 Documentation for each function in the Mlx-Tools module:
 
 
-- [init_mlxenv](wiki/init_mlxenv)
+- [init_mlxenv](documentation/mlx_tools/del_mlxenv.md)
 - [del_mlxenv](wiki/del_mlxenv)
 - [init_mlxwin](wiki/init_mlxwin)
 - [del_mlxwin](wiki/del_mlxwin)
