@@ -1,4 +1,4 @@
-## ft_cam_new
+# ft_cam_new
 Allocates and initializes a new camera with specified field of view, aspect ratio, near clipping plane, and far clipping plane. This function also calculates the frustum limits based on the provided parameters.
 
 #### Parameters
