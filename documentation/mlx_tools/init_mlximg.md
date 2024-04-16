@@ -1,4 +1,4 @@
-### init_mlximg
+# init_mlximg
 Creates a new image in the MiniLibX environment.
 
 #### Parameters
@@ -17,7 +17,7 @@ if (!img) {
 }
 ```
 
-### Related Documentation
+## Related Documentation
 - [t_mlximg](./t_mlximg.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
 
