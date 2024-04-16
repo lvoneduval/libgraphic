@@ -1,4 +1,4 @@
-## fast_line
+# fast_line
 Draws a line between two points on an image using an optimized line-drawing algorithm.
 
 #### Parameters
