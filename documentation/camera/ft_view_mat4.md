@@ -20,7 +20,7 @@ t_matrix4 view_matrix = ft_view_mat4(eye, up, side, forward);
 // `view_matrix` now contains the camera's view matrix based on the given vectors.
 ```
 
-### Related Documentation
+## Related Documentation
 
 - [camera-doc.md](./camera-doc.md)
 - [t_camera.md](./t_camera.md)
