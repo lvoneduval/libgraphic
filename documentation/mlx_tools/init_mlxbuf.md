@@ -1,10 +1,3 @@
-### t_mlxfbuf
-This structure represents a framebuffer that contains multiple frames.
-
-- `frame` - A pointer to the t_mlximg structure representing the frame.
-- `nb_frames` - The number of frames.
-- `curr` - The current frame index.
-
 ### init_mlxfbuf
 Initializes a framebuffer that can hold multiple frames/images.
 
@@ -24,3 +17,6 @@ if (!fbuf) {
     fprintf(stderr, "Failed to initialize framebuffer.\n");
 }
 ```
+
+### Related Documentation
+[t_mlxbuf](./t_mlxbuf.md)

@@ -15,3 +15,4 @@ fbuf = NULL;
 ```
 
 ### Related Documentation
+[t_mlxbuf](./t_mlxbuf.md)

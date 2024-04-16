@@ -15,3 +15,6 @@ Destroys a MiniLibX window and frees the associated memory.
 del_mlxwin(env->init_id, win);
 win = NULL;
 ```
+
+### Related Documentation
+[t_mlxwin](./t_mlxwin.md)

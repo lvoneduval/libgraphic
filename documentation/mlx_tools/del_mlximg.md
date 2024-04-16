@@ -13,3 +13,6 @@ Destroys a MiniLibX image and frees the associated memory.
 del_mlximg(env->init_id, img);
 img = NULL;
 ```
+
+### Related Documentation
+[t_mlximg](./t_mlximg.md)

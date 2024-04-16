@@ -1,11 +1,3 @@
-### t_mlxwin
-This structure describes a window within the MiniLibX environment.
-
-- `id` - The window identifier.
-- `width` - The width of the window.
-- `height` - The height of the window.
-- `title` - The title of the window.
-
 ### init_mlxenv
 Creates and initializes a new window using MiniLibX..
 
@@ -25,3 +17,6 @@ if (!win) {
     fprintf(stderr, "Failed to create a window.\n");
 }
 ```
+
+### Related Documentation
+[t_mlxenv](./t_mlxenv.md)

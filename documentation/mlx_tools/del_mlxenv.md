@@ -14,3 +14,6 @@ Frees the MiniLibX environment object.
 del_mlxenv(env);
 env = NULL;
 ```
+
+### Related Documentation
+[t_mlxenv](./t_mlxenv.md)

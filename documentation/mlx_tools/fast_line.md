@@ -18,3 +18,7 @@ if (image) {
     fast_line(image, start, end); // Draws a line from (100, 50) to (200, 150)
 }
 ```
+
+### Related Documentation
+[t_mlximg](./t_mlxbuf.md)
+[t_vertex2i](../vertex/vertex2i/vertex2i.md)

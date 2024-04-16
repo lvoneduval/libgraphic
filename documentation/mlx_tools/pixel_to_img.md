@@ -17,3 +17,6 @@ if (image) {
     pixel_to_img(image, 100, 50, 0xFFFFFF); // Sets the pixel at (100, 50) to white
 }
 ```
+
+### Related Documentation
+[t_mlximg](./t_mlximg.md)

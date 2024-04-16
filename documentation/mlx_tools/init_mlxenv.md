@@ -1,8 +1,3 @@
-### t_mlxenv
-This structure represents the environment setup for MiniLibX.
-
-- `init_id`: Stores the identifier for the MiniLibX instance.
-
 ### init_mlxenv
 Initializes the MiniLibX environment and returns an environment object.
 
@@ -19,3 +14,6 @@ if (!env) {
     fprintf(stderr, "Failed to initialize the MLX environment.\n");
 }
 ```
+
+### Related Documentation
+[t_mlxenv](./t_mlxenv.md)
