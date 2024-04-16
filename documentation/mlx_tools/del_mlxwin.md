@@ -1,6 +1,4 @@
-## Deletion Function Documentation
-
-### del_mlxwin
+# del_mlxwin
 Destroys a MiniLibX window and frees the associated memory.
 
 #### Parameters
