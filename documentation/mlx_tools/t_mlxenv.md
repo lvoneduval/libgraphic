@@ -1,4 +1,4 @@
-### t_mlxenv
+# t_mlxenv
 This structure represents the MiniLibX environment setup.
 
 - `init_id` - Holds the identifier for the MiniLibX instance.
