@@ -1,4 +1,4 @@
-### t_mlxfbuf
+# t_mlxfbuf
 This structure represents a framebuffer that contains multiple frames.
 
 - `frame` - A pointer to the t_mlximg structure representing the frame.
