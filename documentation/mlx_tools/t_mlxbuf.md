@@ -9,3 +9,6 @@ This structure represents a framebuffer that contains multiple frames.
 - [init_mlxfbuf](./init_mlxfbuf.md)
 - [del_mlxbuf](./del_mlxbuf.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
+
+### Return to the home page of the documentation
+[home](../home.md)

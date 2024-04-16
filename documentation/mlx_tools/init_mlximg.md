@@ -20,3 +20,6 @@ if (!img) {
 ### Related Documentation
 - [t_mlximg](./t_mlximg.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
+
+### Return to the home page of the documentation
+[home](../home.md)

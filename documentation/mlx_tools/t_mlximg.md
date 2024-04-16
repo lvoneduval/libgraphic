@@ -18,3 +18,6 @@ This structure defines an image within the MiniLibX environment.
 - [mlx_bresenham](./mlx_bresenham.md)
 - [fast_line](./fast_line.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
+
+### Return to the home page of the documentation
+[home](../home.md)

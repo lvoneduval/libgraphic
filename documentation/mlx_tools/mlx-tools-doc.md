@@ -72,3 +72,6 @@ Documentation for each function in the Mlx-Tools module:
 - [pixel_to_img](./pixel_to_img.md)
 - [mlx_bresenham](./mlx_bresenham.md)
 - [fast_line](./fast_line.md)
+
+### Return to the home page of the documentation
+[home](../home.md)
