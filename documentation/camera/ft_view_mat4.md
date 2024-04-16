@@ -1,4 +1,4 @@
-## ft_view_mat4
+# ft_view_mat4
 Calculates and returns the view matrix from camera vectors and position. This matrix transforms world coordinates to the camera's view space.
 
 #### Parameters
