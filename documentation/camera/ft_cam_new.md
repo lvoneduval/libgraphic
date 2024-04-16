@@ -21,7 +21,7 @@ if (camera) {
 }
 ```
 
-### Related Documentation
+## Related Documentation
 
 - [camera-doc.md](./camera-doc.md)
 - [t_camera.md](./t_camera.md)
