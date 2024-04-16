@@ -8,7 +8,7 @@ Initializes a framebuffer that can hold multiple frames/images.
 `int h`: Height of each frame.
 
 ### Returns
-t_mlxfbuf *: A pointer to the initialized framebuffer, or NULL if initialization fails.
+`t_mlxfbuf *`: A pointer to the initialized framebuffer, or NULL if initialization fails.
 
 ### Example Usage
 ```c
