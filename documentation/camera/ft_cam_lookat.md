@@ -1,4 +1,4 @@
-## ft_cam_lookat
+# ft_cam_lookat
 Sets up the camera's view matrix based on a specified eye position, center point, and an up vector. This function adjusts the camera's internal vectors and view matrix to look at a specified point from the given position.
 
 #### Parameters
