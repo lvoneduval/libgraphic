@@ -1,4 +1,4 @@
-### init_mlxenv
+# init_mlxenv
 Initializes the MiniLibX environment and returns an environment object.
 
 #### Parameters
@@ -15,7 +15,7 @@ if (!env) {
 }
 ```
 
-### Related Documentation
+## Related Documentation
 - [t_mlxenv](./t_mlxenv.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
 
