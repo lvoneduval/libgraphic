@@ -1,4 +1,4 @@
-### t_mlximg
+# t_mlximg
 This structure defines an image within the MiniLibX environment.
 
 - `id` - The image identifier.
@@ -11,7 +11,7 @@ This structure defines an image within the MiniLibX environment.
 - `sz_line` - Size of one line of the image data.
 - `endian` - Endianness of the pixel data.
 
-### Related Functions
+## Related Functions
 - [init_mlximg](./init_mlximg.md)
 - [del_mlximg](./del_mlximg.md)
 - [pixel_to_img](./pixel_to_img.md)
