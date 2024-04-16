@@ -1,4 +1,4 @@
-## ft_cam_init
+# ft_cam_init
 Initializes a camera with specified field of view, aspect ratio, near clipping plane, and far clipping plane.
 
 #### Parameters
