@@ -1,4 +1,4 @@
-### t_camera
+# t_camera
 This structure represents a camera in a 3D environment.
 
 - `eye` - Position of the camera in world space.
