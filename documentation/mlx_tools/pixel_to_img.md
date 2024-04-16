@@ -1,4 +1,4 @@
-## pixel_to_img
+# pixel_to_img
 Sets a pixel at a specific location in an image to a specified color.
 
 #### Parameters
@@ -18,7 +18,7 @@ if (image) {
 }
 ```
 
-### Related Documentation
+## Related Documentation
 - [t_mlximg](./t_mlximg.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
 
