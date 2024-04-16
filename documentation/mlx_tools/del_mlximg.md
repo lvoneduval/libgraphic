@@ -14,7 +14,7 @@ del_mlximg(env->init_id, img);
 img = NULL;
 ```
 
-### Related Documentation
+## Related Documentation
 - [t_mlximg](./t_mlximg.md)
 - [mlx_tools_doc](./mlx-tools-doc.md)
 
