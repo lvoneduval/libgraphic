@@ -19,6 +19,7 @@ Below are the structures defined in the `mlx_tools.h` file, utilized by various 
 This structure represents the MiniLibX environment setup.
 
 - `init_id` - Holds the identifier for the MiniLibX instance.
+
 [t_mlxenv](./t_mlxenv.md)
 
 ### t_mlxwin
@@ -28,6 +29,7 @@ This structure describes a window within the MiniLibX environment.
 - `width` - The width of the window.
 - `height` - The height of the window.
 - `title` - The title of the window.
+
 [t_mlxwin](./t_mlxwin.md)
 
 ### t_mlximg
@@ -42,6 +44,7 @@ This structure defines an image within the MiniLibX environment.
 - `bpp` - Bits per pixel.
 - `sz_line` - Size of one line of the image data.
 - `endian` - Endianness of the pixel data.
+
 [t_mlximg](./t_mlximg.md)
 
 ### t_mlxfbuf
@@ -50,6 +53,7 @@ This structure represents a framebuffer that contains multiple frames.
 - `frame` - A pointer to the t_mlximg structure representing the frame.
 - `nb_frames` - The number of frames.
 - `curr` - The current frame index.
+
 [t_mlxenv](./t_mlxenv.md)
 
 
