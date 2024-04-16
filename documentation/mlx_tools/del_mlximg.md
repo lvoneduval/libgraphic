@@ -1,4 +1,4 @@
-### del_mlximg
+# del_mlximg
 Destroys a MiniLibX image and frees the associated memory.
 
 #### Parameters
