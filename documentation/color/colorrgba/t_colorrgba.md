@@ -35,5 +35,8 @@ This section outlines the default values for the RGBA (Red, Green, Blue, Alpha) 
 - [ft_rgba_to_i](./ft_rgba_to_i.md)
 - [ft_icolor_lerp](./ft_icolor_lerp.md)
 
+## Related Documentation
+- [color-doc](../color-doc.md)
+
 ### Return to the home page of the documentation
 [home](../home.md)

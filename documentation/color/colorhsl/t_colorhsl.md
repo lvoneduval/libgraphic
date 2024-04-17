@@ -28,5 +28,8 @@ This section details the default values used for initializing HSL colors in the 
 - [ft_hsl_from_rgba](./ft_hsl_from_rgba.md)
 - [ft_hsl_lerp](./ft_hsl_lerp.md)
 
+## Related Documention
+- [color-doc](../color-doc.md)
+
 ### Return to the home page of the documentation
 [home](../home.md)
