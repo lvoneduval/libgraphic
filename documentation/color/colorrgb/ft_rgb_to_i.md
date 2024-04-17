@@ -1,28 +1,28 @@
-# ft_rgb_from_i
-Converts an integer to an RGB color structure. This function interprets the integer as a packed RGB format, where the lowest 8 bits represent the blue component, the next 8 bits represent the green component, and the third set of 8 bits from the least significant represent the red component.
+# ft_rgb_to_i
+Converts an RGB color structure to an integer representation. This function is useful for systems where colors need to be stored compactly in a single integer variable or passed to APIs expecting color data in integer format.
 
 ### Parameters
-- `int color`: The integer value encoding the RGB color, typically formatted as 0xRRGGBB.
+- `t_colorrgb color`: The RGB color to convert.
 
 ### Returns
-- `t_colorrgb`: An RGB color structure with the red, green, and blue components extracted from the integer.
+- `int`: The integer representation of the RGB color, formatted as 0xRRGGBB.
 
 ### Example Usage
 ```c
-int packedColor = 0xFF5733; // An example color packed in hexadecimal format
-t_colorrgb rgbColor = ft_rgb_from_i(packedColor);
-// rgbColor will have red = 0xFF, green = 0x57, blue = 0x33
+t_colorrgb color = {255, 165, 0};  // Orange color
+int packedColor = ft_rgb_to_i(color);
+// packedColor will be 0xFFA500, which represents the orange color in hexadecimal.
 ```
 
 ### Function Details
-This function breaks down the integer color representation:
-- **Blue Component**: Extracted by masking the least significant byte (`color & 0xFF`).
-- **Green Component**: Extracted by shifting the color right by 8 bits and then masking (`(color >> 8) & 0xFF`).
-- **Red Component**: Extracted by shifting the color right by 16 bits and then masking (`(color >> 16) & 0xFF`).
+This function combines the red, green, and blue components of an RGB color into a single integer:
+- **Blue Component**: Placed in the least significant byte (`color.blue`).
+- **Green Component**: Shifted left by 8 bits and placed in the next byte (`color.green << 8`).
+- **Red Component**: Shifted left by 16 bits and placed in the next higher byte (`color.red << 16`).
 
 ### Notes:
-- **Input Color Format**: Ensure that the input integer is in the correct color format (0xRRGGBB) to avoid incorrect color values.
-- **Endianness**: This function assumes the color is stored in little-endian format, typical in many computing environments. If working in a different endianness, adjustments might be needed.
+- **Color Encoding**: The resulting integer is encoded as 0xRRGGBB, which is a common format for representing colors in many graphics libraries and systems.
+- **Endianness Concerns**: The function assumes that the system uses little-endian byte order for multi-byte values. If used in a big-endian system, the byte order of the color components within the integer may need to be adjusted.
 
 ## Related Documentation
 - [t_colorhsl](./t_colorrgb.md)

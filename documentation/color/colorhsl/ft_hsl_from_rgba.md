@@ -27,7 +27,7 @@ This function computes the HSL values based on the following formulae:
 
 ## Related Documentation
 - [t_colorhsl](./t_colorhsl.md)
-- [t_colorrgba](./ft_hsl_from_rgba.md)
+- [t_colorrgba](../colorrgba/t_colorrgba.md)
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation

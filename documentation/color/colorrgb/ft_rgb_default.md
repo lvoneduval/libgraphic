@@ -1,4 +1,4 @@
-#= ft_rgb_default
+# ft_rgb_default
 Returns a default RGB color. This default color is defined by predefined constants for the red, green, and blue components and can be used as a standard or fallback color setting in various graphic applications.
 
 #### Returns
