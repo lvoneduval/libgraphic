@@ -10,7 +10,7 @@ Documentation for each function in the Debug module:
 - [print_vertex2i](./print_vertex2i.md)
 - [print_quat](./print_quat.md)
 - [print_matrix4](./print_matrix4.md)
-- [print_camera](./print_camera.md)
+- [print_cam](./print_cam.md)
 
 ### Precision Control
 - `FLOAT_PRECISION`: A constant that defines the number of decimal places for floating-point outputs, impacting all print functions in this module.
