@@ -23,7 +23,7 @@ Documentation for each function in the Camera module:
 - [ft_cam_new](./ft_cam_new.md)
 - [ft_view_mat4](./ft_view_mat4.md)
 - [ft_cam_lookat](./ft_cam_lookat.md)
-- [camera-doc.md](./camera-doc.md)
+- [camera-doc](./camera-doc.md)
 
 ### Return to the home page of the documentation
 [home](../home.md)

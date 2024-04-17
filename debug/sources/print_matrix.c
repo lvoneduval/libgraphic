@@ -1,6 +1,6 @@
 #include "../includes/debug.h"
 
-void	print_mat4(t_matrix4 m, char *name)
+void	print_matrix4(t_matrix4 m, char *name)
 {
 	printf("-> Mat4 : %s <-\n", name);
 	printf("|% .2f % .2f % .2f % .2f |\n",

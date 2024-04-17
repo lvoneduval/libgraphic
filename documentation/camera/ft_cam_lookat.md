@@ -22,9 +22,9 @@ t_matrix4 view_matrix = ft_cam_lookat(&camera, eye, center, up);
 
 ## Related Documentation
 
-- [camera-doc.md](./camera-doc.md)
-- [t_camera.md](./t_camera.md)
-- [t_matrix4.md](../matrix/matrix4/t_matrix4.md)
+- [camera-doc](./camera-doc.md)
+- [t_camera](./t_camera.md)
+- [t_matrix4](../matrix/matrix4/t_matrix4.md)
 
 ### Return to the home page of the documentation
 [home](../home.md)

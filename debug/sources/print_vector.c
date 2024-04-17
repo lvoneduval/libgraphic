@@ -1,6 +1,6 @@
 #include "../includes/debug.h"
 
-void	print_ver2i(t_vertex2i v)
+void	print_vertex2i(t_vertex2i v)
 {
 	int		precision;
 
@@ -9,7 +9,7 @@ void	print_ver2i(t_vertex2i v)
 											precision, v.x, v.y);
 }
 
-void	print_vec2(t_vector2 v)
+void	print_vector2(t_vector2 v)
 {
 	int		precision;
 
@@ -18,7 +18,7 @@ void	print_vec2(t_vector2 v)
 											precision, v.x, v.y);
 }
 
-void	print_vec3(t_vector3 v)
+void	print_vector3(t_vector3 v)
 {
 	int		precision;
 

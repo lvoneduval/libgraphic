@@ -23,8 +23,8 @@ if (camera) {
 
 ## Related Documentation
 
-- [camera-doc.md](./camera-doc.md)
-- [t_camera.md](./t_camera.md)
+- [camera-doc](./camera-doc.md)
+- [t_camera](./t_camera.md)
 
 ### Return to the home page of the documentation
 [home](../home.md)
