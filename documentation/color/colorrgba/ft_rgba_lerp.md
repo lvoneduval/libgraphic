@@ -10,13 +10,13 @@ Performs linear interpolation between two RGBA colors based on the specified int
 - `t_colorrgba`: The interpolated RGBA color.
 
 ### Example Usage
-***c
+```c
 t_colorrgba startColor = {255, 0, 0, 100};   // Semi-transparent red
 t_colorrgba endColor = {0, 0, 255, 200};     // More transparent blue
 float factor = 0.5;                          // Midway between start and end colors
 t_colorrgba blendedColor = ft_rgba_lerp(startColor, endColor, factor);
 // blendedColor will have red = 128, green = 0, blue = 128, alpha = 150
-***
+```
 
 ### Function Details
 This function calculates each component of the resulting RGBA color by:

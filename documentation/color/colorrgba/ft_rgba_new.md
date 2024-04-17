@@ -11,10 +11,10 @@ Creates a new RGBA color structure with specified red, green, blue, and alpha va
 - `t_colorrgba`: A new RGBA color object initialized with the specified values.
 
 ### Example Usage
-***c
+```c
 t_colorrgba solidRed = ft_rgba_new(255, 0, 0, 255);  // Opaque red
 t_colorrgba transparentBlue = ft_rgba_new(0, 0, 255, 128);  // Semi-transparent blue
-***
+```
 
 ### Function Details
 This function initializes an RGBA color by assigning the given values to the respective fields in the `t_colorrgba` structure:
