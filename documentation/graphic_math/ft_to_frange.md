@@ -26,7 +26,7 @@ float mappedValue = ft_to_frange(srcRange, destRange, originalValue);
 - **Usage**: This function is particularly useful in scenarios where data normalization or adjustment to specific scales is required, such as adjusting UI elements based on different screen resolutions or converting color values.
 
 ## Related Documentation
-- [t_frange](./t_frange.md)
+- [g_math-doc.md](./g_math-doc.md)
 
 ### Return to the home page of the documentation
 [Home](../home.md)
