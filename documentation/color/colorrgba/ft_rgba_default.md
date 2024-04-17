@@ -25,7 +25,7 @@ This function initializes an RGBA color structure with:
 - **Alpha Component**: Set to `DEFAULT_ALPHA_VALUE`.
 
 ### Constants
-The constants used for defining the default RGB color ([see_more](./t_colorrgba.md)) 
+The constants used for defining the default RGBA color ([see_more](./t_colorrgba.md)) 
 
 ### Notes:
 - **Purpose of Default Values**: These values can be adjusted in the code to change the default appearance where this function is used. 
