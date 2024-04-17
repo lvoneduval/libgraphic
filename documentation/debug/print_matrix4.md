@@ -33,4 +33,4 @@ The matrix is printed with its name at the top, followed by the matrix elements 
 - [t_matrix4](../matrix/matrix4/t_matrix4.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

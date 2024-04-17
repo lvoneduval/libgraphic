@@ -27,4 +27,4 @@ print_quat(rotation);
 - [t_quat](../rotation/quat/t_quat.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

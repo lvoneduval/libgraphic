@@ -32,4 +32,4 @@ This function initializes an RGBA color by assigning the given values to the res
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

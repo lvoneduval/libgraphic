@@ -31,4 +31,4 @@ This section outlines the default values for the RGB (Red, Green, Blue) color co
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

@@ -79,4 +79,4 @@ These functions are used to render or manipulate graphical content directly onto
 - [fast_line](./fast_line.md) - Draws lines quickly using an optimized algorithm.
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

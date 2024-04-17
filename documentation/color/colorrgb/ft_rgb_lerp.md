@@ -32,4 +32,4 @@ This function calculates each component of the resulting RGB color by:
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

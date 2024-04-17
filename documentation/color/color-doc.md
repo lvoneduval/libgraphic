@@ -72,4 +72,4 @@ t_colorhsl colorHSL = {120.0f, 100.0f, 50.0f}; // Fully saturated mid-lightness 
 - [ft_icolor_lerp](/colorrgba/ft_icolor_lerp.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

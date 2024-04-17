@@ -27,4 +27,4 @@ t_matrix4 view_matrix = ft_view_mat4(eye, up, side, forward);
 - [t_matrix4](../matrix/matrix4/t_matrix4.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

@@ -31,4 +31,4 @@ This function extracts RGBA components from a single integer:
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

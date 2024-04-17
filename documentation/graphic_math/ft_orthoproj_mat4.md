@@ -31,4 +31,4 @@ t_matrix4 orthoMatrix = ft_orthoproj_mat4(fov, near, far, ratio);
 - [t_matrix4](../matrix/matrix/t_matrix4.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

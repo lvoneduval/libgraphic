@@ -36,4 +36,4 @@ t_vertex2i screenVertex = ft_ver3f_proj(myVertex, myMatrix, screenWidth, screenH
 - [t_vertex2i](../vertex/vertex2i/t_vertex2i.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

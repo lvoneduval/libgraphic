@@ -22,4 +22,4 @@ if (!fbuf) {
 - [mlx_tools_doc](./mlx-tools-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

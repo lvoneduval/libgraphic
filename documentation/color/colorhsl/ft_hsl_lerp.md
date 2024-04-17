@@ -32,4 +32,4 @@ This function computes each component of the resulting HSL color by:
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

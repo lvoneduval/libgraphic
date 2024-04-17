@@ -29,4 +29,4 @@ float mappedValue = ft_to_frange(srcRange, destRange, originalValue);
 - [t_frange](./t_frange.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

@@ -23,4 +23,4 @@ t_camera camera = ft_cam_init(70.0f, 16.0f/9.0f, 0.1f, 100.0f);
 - [t_camera](./t_camera.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

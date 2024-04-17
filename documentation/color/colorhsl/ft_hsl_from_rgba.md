@@ -31,4 +31,4 @@ This function computes the HSL values based on the following formulae:
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

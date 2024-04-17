@@ -27,4 +27,4 @@ print_vector2(direction);
 - [t_vector2](../vector/vector2/t_vector2.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

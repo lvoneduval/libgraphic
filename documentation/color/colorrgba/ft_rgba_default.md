@@ -36,5 +36,5 @@ The constants used for defining the default RGBA color ([see_more](./t_colorrgba
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)
 

@@ -31,4 +31,4 @@ This function combines the red, green, blue, and alpha components of an RGBA col
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

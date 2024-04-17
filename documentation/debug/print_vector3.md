@@ -26,4 +26,4 @@ print_vector3(normal);
 - [t_vector3](../vector/vector3/t_vector3.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

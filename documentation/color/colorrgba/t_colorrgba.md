@@ -39,4 +39,4 @@ This section outlines the default values for the RGBA (Red, Green, Blue, Alpha) 
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

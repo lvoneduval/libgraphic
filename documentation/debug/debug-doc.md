@@ -20,4 +20,4 @@ Documentation for each function in the Debug module:
 - The output precision can be adjusted via the `FLOAT_PRECISION` constant to suit different needs for clarity or detail in the printed information.
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

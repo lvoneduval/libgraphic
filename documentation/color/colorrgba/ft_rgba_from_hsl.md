@@ -40,4 +40,4 @@ Each RGB component is then adjusted by adding `M` and scaled to the 0-255 range 
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

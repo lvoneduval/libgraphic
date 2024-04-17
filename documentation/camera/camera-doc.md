@@ -43,4 +43,4 @@ Documentation for each function in the Camera module:
 - [ft_cam_lookat](./ft_cam_lookat.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

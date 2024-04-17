@@ -31,4 +31,4 @@ t_matrix4 perspMatrix = ft_persproj_mat4(fov, near, far, ratio);
 - [t_matrix4](../matrix/matrix4/t_matrix4.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[Home](../home.md)

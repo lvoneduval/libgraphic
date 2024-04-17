@@ -31,7 +31,7 @@ Represents an integer range with specified minimum and maximum values:
 
 ### Vertex Projection
 
-- [ft_ver3f_proj](./ft_ver3f_proj.md)
+- [ft_vertex3f_proj](./ft_vertex3f_proj.md)
   - Projects a 3D vertex onto a 2D plane using a transformation matrix.
 
 ### Viewport Transformations
