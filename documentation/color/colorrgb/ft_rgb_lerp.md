@@ -28,7 +28,7 @@ This function calculates each component of the resulting RGB color by:
 - **Boundary Values**: Ensure the interpolation factor does not exceed the range of 0.0 to 1.0 to avoid unexpected color results.
 
 ## Related Documentation
-- [t_colorhsl](./t_colorrgb.md)
+- [t_colorrgb](./t_colorrgb.md)
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation

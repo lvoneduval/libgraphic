@@ -25,7 +25,7 @@ This function breaks down the integer color representation:
 - **Endianness**: This function assumes the color is stored in little-endian format, typical in many computing environments. If working in a different endianness, adjustments might be needed.
 
 ## Related Documentation
-- [t_colorhsl](./t_colorrgb.md)
+- [t_colorrgb](./t_colorrgb.md)
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation

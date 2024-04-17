@@ -20,7 +20,7 @@ The constants used for defining the default RGB color ([see_more](./t_colorrgb.m
 This function creates and returns an RGB color structure initialized to default values, which are ideal for ensuring consistency in default color settings across various parts of an application.
 
 ## Related Documentation
-- [t_colorhsl](./t_colorrgb.md)
+- [t_colorrgb](./t_colorrgb.md)
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation

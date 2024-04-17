@@ -25,7 +25,7 @@ This function combines the red, green, and blue components of an RGB color into 
 - **Endianness Concerns**: The function assumes that the system uses little-endian byte order for multi-byte values. If used in a big-endian system, the byte order of the color components within the integer may need to be adjusted.
 
 ## Related Documentation
-- [t_colorhsl](./t_colorrgb.md)
+- [t_colorrgb](./t_colorrgb.md)
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
