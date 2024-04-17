@@ -44,6 +44,8 @@ t_colorhsl colorHSL = {120.0f, 100.0f, 50.0f}; // Fully saturated mid-lightness 
 ```
 
 ## Functions
+
+### HSL Color
 - [ft_hsl_new](./colorhsl/ft_hsl_new.md)
 - [ft_hsl_default](./colorhsl/ft_hsl_default.md)
 - [ft_hsl_add](./colorhsl/ft_hsl_add.md)
@@ -51,12 +53,14 @@ t_colorhsl colorHSL = {120.0f, 100.0f, 50.0f}; // Fully saturated mid-lightness 
 - [ft_hsl_from_rgba](./colorhsl/ft_hsl_from_rgba.md)
 - [ft_hsl_lerp](/colorhsl/ft_hsl_lerp.md)
 
+### RGB Color
 - [ft_rgb_new](./colorrgb/ft_rgb_new.md)
 - [ft_rgb_default](./colorrgb/ft_rgb_default.md)
 - [ft_rgb_to_i](./colorrgb/ft_rgb_to_i.md)
 - [ft_rgb_from_i](./colorrgb/ft_rgb_from_i.md)
 - [ft_rgb_lerp](./colorrgb/ft_rgb_lerp.md)
 
+### RGBA Color
 - [ft_rgba_new](./colorrgba/ft_rgba_new.md)
 - [ft_rgba_default](./colorrgba/ft_rgba_default.md)
 - [ft_rgba_add](./colorrgba/ft_rgba_add.md)

@@ -12,4 +12,4 @@ t_vertex2i	ft_ver3f_proj(t_vertex3f v, t_matrix4 m, int width, int height)
 	proj = ft_viewport_tlc(ndc, ft_vertex2i_null(), width, height);
 	//proj.color = v.color;
 	return (proj);
-	}
+}

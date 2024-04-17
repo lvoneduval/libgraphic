@@ -90,8 +90,8 @@ G_MATH_FILES			:= \
 	ft_persproj_mat4.c	\
 	ft_to_frange.c		\
 	ft_vertex3f_proj.c	\
-	ft_vieport_llc.c	\
-	ft_vieport_tlc.c
+	ft_viewport_llc.c	\
+	ft_viewport_tlc.c
 
 MATRIX4_FILES			:= \
 	ft_mat4_from_aarot.c				\

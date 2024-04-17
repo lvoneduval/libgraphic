@@ -56,22 +56,27 @@ This structure represents a framebuffer that contains multiple frames.
 
 [t_mlxenv](./t_mlxenv.md)
 
-
 ## Functions
 Documentation for each function in the Mlx-Tools module:
 
+### Initialization and Destruction
+These functions are responsible for setting up and tearing down various graphics objects within the Mlx-Tools module.
 
-- [init_mlxenv](./del_mlxenv.md)
-- [del_mlxenv](./del_mlxenv.md)
-- [init_mlxwin](./init_mlxwin.md)
-- [del_mlxwin](./del_mlxwin.md)
-- [init_mlximg](./init_mlximg.md)
-- [del_mlximg](./del_mlximg.md)
-- [init_mlxfbuf](./init_mlxfbuf.md)
-- [del_mlxbuf](./del_mlxbuf.md)
-- [pixel_to_img](./pixel_to_img.md)
-- [mlx_bresenham](./mlx_bresenham.md)
-- [fast_line](./fast_line.md)
+- [init_mlxenv](./init_mlxenv.md) - Initializes the MiniLibX environment.
+- [del_mlxenv](./del_mlxenv.md) - Deletes the MiniLibX environment setup.
+- [init_mlxwin](./init_mlxwin.md) - Initializes a new window in MiniLibX.
+- [del_mlxwin](./del_mlxwin.md) - Deletes a MiniLibX window.
+- [init_mlximg](./init_mlximg.md) - Initializes an image for rendering.
+- [del_mlximg](./del_mlximg.md) - Deletes an image from MiniLibX.
+- [init_mlxfbuf](./init_mlxfbuf.md) - Initializes a framebuffer for storing multiple frames.
+- [del_mlxbuf](./del_mlxfbuf.md) - Deletes a framebuffer.
+
+### Rendering and Drawing Functions
+These functions are used to render or manipulate graphical content directly onto images or windows.
+
+- [pixel_to_img](./pixel_to_img.md) - Sets a pixel on an image buffer.
+- [mlx_bresenham](./mlx_bresenham.md) - Implements the Bresenham line drawing algorithm.
+- [fast_line](./fast_line.md) - Draws lines quickly using an optimized algorithm.
 
 ### Return to the home page of the documentation
 [home](../home.md)

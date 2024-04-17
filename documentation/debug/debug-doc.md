@@ -3,7 +3,7 @@
 The Debug Module provides a suite of functions designed to output detailed information about various data structures used in graphics programming. This documentation covers the functions that print properties of vectors, vertices, matrices, quaternions, and camera configurations, aiding in debugging and ensuring correctness in graphical applications.
 
 ## Functions
-Documentation for each function in the Camera module:
+Documentation for each function in the Debug module:
 
 - [print_vector2](./print_vector2.md)
 - [print_vector3](./print_vector3.md)
