@@ -24,7 +24,7 @@ print_vector2(direction);
 
 ## Related Documentation
 - [debug-doc](./debug-doc.md)
-- [t_vector](../vector/vector2/t_vector2.md)
+- [t_vector2](../vector/vector2/t_vector2.md)
 
 ### Return to the home page of the documentation
 [home](../home.md)
