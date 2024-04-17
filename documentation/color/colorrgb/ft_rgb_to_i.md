@@ -29,4 +29,4 @@ This function combines the red, green, and blue components of an RGB color into 
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

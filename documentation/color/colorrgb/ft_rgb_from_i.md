@@ -29,4 +29,4 @@ This function breaks down the integer color representation:
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

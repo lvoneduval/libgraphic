@@ -22,8 +22,8 @@ This function constructs an RGB color by directly assigning the provided red, gr
 - **Color Range**: Each color component should be provided within the 0 to 255 range, corresponding to the intensity of the color in the RGB color space.
 
 ## Related Documentation
-- [t_colorhsl](./t_colorrgb.md)
+- [t_colorrgb](./t_colorrgb.md)
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

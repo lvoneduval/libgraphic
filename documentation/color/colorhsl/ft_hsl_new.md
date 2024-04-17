@@ -19,4 +19,4 @@ t_colorhsl color = ft_hsl_new(270.0, 50.0, 30.0);
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

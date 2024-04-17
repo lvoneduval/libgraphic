@@ -20,4 +20,4 @@ t_colorhsl newColor = ft_hsl_add(baseColor, addColor);
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

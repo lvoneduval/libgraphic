@@ -32,4 +32,4 @@ This section details the default values used for initializing HSL colors in the 
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

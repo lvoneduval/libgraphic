@@ -34,4 +34,4 @@ This function calculates each component of the resulting RGBA color by:
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

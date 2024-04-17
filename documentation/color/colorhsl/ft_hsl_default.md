@@ -25,4 +25,4 @@ This function creates and returns an HSL color structure initialized to default 
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)

@@ -32,4 +32,4 @@ This function calculates the interpolated color by blending the RGBA channels in
 - [color-doc](../color-doc.md)
 
 ### Return to the home page of the documentation
-[home](../home.md)
+[home](../../home.md)
