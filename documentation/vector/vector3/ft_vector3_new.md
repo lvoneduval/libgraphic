@@ -26,8 +26,8 @@ t_vector3 position = ft_vector3_new(8.0, 15.0, 17.0);
 - **Flexibility**: Allows for direct and explicit setting of vector components, facilitating precise control over vector values.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Further details on the 3D vector structure and its usage.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

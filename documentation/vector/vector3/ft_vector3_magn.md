@@ -25,8 +25,8 @@ float magnitude = ft_vector3_magn(vector);
 - **Usage**: The magnitude is used directly in vector normalization (to convert a vector to unit length) and indirectly in many other vector operations that require the vector's length, such as scaling or adjusting vector direction.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Provides details on the 3D vector structure and its operations.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

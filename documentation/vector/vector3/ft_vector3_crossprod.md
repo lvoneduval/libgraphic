@@ -28,7 +28,8 @@ t_vector3 normalVector = ft_vector3_crossprod(vectorA, vectorB);
 - **Zero Result**: If the vectors are parallel, the cross product will be a zero vector, indicating no perpendicular direction exists within their plane.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Further details on the 3D vector structure and its usage.
+- [t_vector3](./t_vector3.md) - Provides details on the 3D vector structure and its operations.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

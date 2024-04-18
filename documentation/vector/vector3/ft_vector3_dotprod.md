@@ -29,8 +29,8 @@ float dotProduct = ft_vector3_dotprod(vectorA, vectorB);
 - **Applications**: Dot product is used to determine if vectors are orthogonal, for projection calculations, and in lighting calculations in 3D graphics where the angle relative to the light source impacts shading.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Provides details on the 3D vector structure and its operations.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

@@ -27,8 +27,8 @@ t_vector3 scaledVelocity = ft_vector3_scale(velocity, scalingFactor);
 - **Vector Direction**: The scaling operation does not change the direction of the vector unless the scale factor is negative, which would then reverse the direction.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Further details on the 3D vector structure and its usage.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

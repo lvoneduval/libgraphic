@@ -24,8 +24,8 @@ t_vector3 zeroVector = ft_vector3_null();
 - **Identity for Addition**: In vector addition, the zero vector acts as an identity element; adding it to any vector results in the original vector.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Further details on the 3D vector structure and its usage.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

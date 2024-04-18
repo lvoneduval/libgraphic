@@ -27,8 +27,8 @@ t_vector3 resultVector = ft_vector3_add(vectorA, vectorB);
 - **Associative and Commutative**: Vector addition is both associative and commutative, properties that can be utilized to optimize calculations involving multiple vector additions.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Provides details on the 3D vector structure and its operations.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

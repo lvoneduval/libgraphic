@@ -24,8 +24,8 @@ t_vector3 unitDirection = ft_vector3_normalize(direction);
 - **Importance of Normalization**: Normalizing a vector is crucial in ensuring that operations that depend on direction but not magnitude, such as dot product for angle calculation or physical forces, are accurate and consistent.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Further details on the 3D vector structure and its usage.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

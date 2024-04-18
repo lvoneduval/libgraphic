@@ -27,8 +27,8 @@ int areEqual = ft_vector3_equal(vectorA, vectorB);
 - **Efficiency**: This function is optimized for quick comparison, useful in algorithms that require frequent vector equality checks, such as searching and sorting in geometric data structures.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Provides details on the 3D vector structure and its operations.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

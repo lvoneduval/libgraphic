@@ -27,8 +27,8 @@ t_vector3 displacement = ft_vector3_sub(positionA, positionB);
 - **Applications**: Subtraction is crucial in scenarios such as physics simulations where the relative motion between objects needs to be calculated, or in pathfinding algorithms to determine the direction and distance to a target.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Further details on the 3D vector structure and its usage.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)

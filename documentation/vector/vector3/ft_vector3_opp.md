@@ -25,8 +25,8 @@ t_vector3 oppositeVelocity = ft_vector3_opp(velocity);
 - **Simple Operation**: Despite its simplicity, negating a vector is a critical operation in many vector calculations and can significantly affect the behavior of algorithms that involve vector manipulations.
 
 ## Related Documentation
-- [t_vector3](./t_vector3.md) - Provides details on the 2D vector structure and its operations.
-- [vector-md](../vector-doc.md) - Provides details on the 2D vector structure and its operations.
+- [t_vector3](./t_vector3.md) - Further details on the 3D vector structure and its usage.
+- [vector-md](../vector-doc.md) - Provides details vectors structures.
 
 ### Return to the home page of the documentation
 [Home](../../home.md)
