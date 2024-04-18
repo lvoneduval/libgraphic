@@ -29,7 +29,7 @@ t_aarot aarot = ft_aarot_from_mat4(mat);
 - The accuracy of the conversion can depend on the representation of the matrix and the presence of uniform scaling.
 
 ## Related Documentation
-- [t_matrix4](../matrix/t_matrix4.md) - Documentation on the matrix used as input for this function.
+- [t_matrix4](../../matrix/matrix4/t_matrix4.md) - Documentation on the matrix used as input for this function.
 - [t_quat](../quaternion/t_quat.md) - Intermediate quaternion representation used in the conversion process.
 - [t_aarot](./t_aarot.md) - Final axis-angle rotation structure produced by this function.
 - [rotation-doc](../rotation-doc.md) - Central documentation for different types of rotation representations.
