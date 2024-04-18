@@ -31,4 +31,4 @@ float detValue = ft_vector2_det(vectorA, vectorB);
 - [vector-doc](../vector-doc.md)
 
 ### Return to the home page of the documentation
-[Home](../home.md)
+[Home](../../home.md)

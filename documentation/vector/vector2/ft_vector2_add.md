@@ -30,4 +30,4 @@ t_vector2 resultVector = ft_vector2_add(vectorA, vectorB);
 - [vector-doc](../vector-doc.md)
 
 ### Return to the home page of the documentation
-[Home](../home.md)
+[Home](../../home.md)

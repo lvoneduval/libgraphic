@@ -31,4 +31,4 @@ int areEqual = ft_vector2_equal(vectorA, vectorB);
 - [vector-doc](../vector-doc.md)
 
 ### Return to the home page of the documentation
-[Home](../home.md)
+[Home](../../home.md)
