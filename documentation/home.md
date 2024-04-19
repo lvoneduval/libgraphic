@@ -38,7 +38,3 @@ Functions and structures for vector arithmetic, critical for handling spatial ca
 
 ### [Vertex Module](./vertex/vertex-doc.md)
 Documentation covering vertex structures and related functionalities, essential for managing geometric vertices in graphics applications.
-
-### Return to the Home Page
-
-[Home](../home.md)
