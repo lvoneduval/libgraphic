@@ -31,6 +31,7 @@
 - [🗂️ Repository Structure](#️-repository-structure)
 - [🚀 Getting Started](#-getting-started)
   - [⚙️ Installation](#️-installation)
+  - [Quickstar](#-quick-start)
 - [🛠 Project Roadmap](#-project-roadmap)
 - [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
@@ -351,10 +352,21 @@ Libgraphic is designed to be extensible, high-performing, and user-friendly, sui
 >
 > ```c
 > #include "<path to libgraphic>/libraphic.h"
-> ```
->
-> 4. Documentation:
->
+> ````
+> 
+
+### Quick Start
+ Kickstart your journey with our platform by following our straightforward Quick Start Guide. This guide is designed to help you set up and start using our system with practical examples and essential setup instructions.
+- **Begin Your Experience:** Follow the steps outlined to quickly integrate and utilize our tools. [View the Quick Start Guide](./documentation/quick_start/quick_start.md).
+
+
+---
+
+## Complete Documentation Overview
+
+Explore the comprehensive documentation to familiarize yourself with all aspects of our platform. This documentation serves as a central hub to guide you through the features and functionalities of our system.
+
+- **Explore the Full Documentation:** Dive deeper into each component of our platform. [Visit the Documentation Home](./documentation/home.md).
 
 ---
 
