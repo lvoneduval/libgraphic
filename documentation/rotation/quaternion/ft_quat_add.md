@@ -16,12 +16,12 @@ This function adds each corresponding component of the two quaternions:
 - `t_quat`: The resulting quaternion after the addition. This quaternion is not guaranteed to be normalized and may require normalization to be used effectively in rotation applications.
 
 ### Example Usage
-***c
+```c
 t_quat quat1 = {1.0, 0.0, 0.0, 0.0};
 t_quat quat2 = {0.0, 1.0, 0.0, 0.0};
 t_quat resultQuat = ft_quat_add(quat1, quat2);
 // resultQuat will be {1.0, 1.0, 0.0, 0.0}
-***
+```
 
 ### Notes:
 - Quaternion addition is not commonly used for combining rotations as the result does not represent a meaningful rotation without normalization.

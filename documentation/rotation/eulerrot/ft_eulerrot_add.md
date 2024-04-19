@@ -15,12 +15,12 @@ This function adds the corresponding components of two Euler angle rotations:
 - `t_eulerrot`: The resultant Euler angles after addition. This represents the cumulative rotation of `a` and `b`.
 
 ### Example Usage
-***c
+```c
 t_eulerrot rot1 = {M_PI / 4, M_PI / 6, M_PI / 8};
 t_eulerrot rot2 = {M_PI / 4, M_PI / 6, M_PI / 8};
 t_eulerrot combinedRotation = ft_eulerrot_add(rot1, rot2);
 // combinedRotation will have {M_PI / 2, M_PI / 3, M_PI / 4}
-***
+```
 
 ### Notes:
 - Euler angles are prone to gimbal lock and may not always represent 3D orientation intuitively when rotations become complex. Adding Euler angles linearly is straightforward but may not always provide expected results in 3D orientation due to these limitations.

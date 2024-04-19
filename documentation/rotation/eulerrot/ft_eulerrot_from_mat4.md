@@ -13,7 +13,7 @@ This function handles the conversion through two primary transformations:
 - `t_eulerrot`: The Euler angles derived from the transformation matrix. These angles represent the rotation in terms of roll (x), pitch (y), and yaw (z).
 
 ### Example Usage
-***c
+```c
 t_matrix4 rotationMatrix = {
     {0, -1, 0, 0},
     {1, 0, 0, 0},
@@ -22,7 +22,7 @@ t_matrix4 rotationMatrix = {
 };  // Matrix representing 90 degrees rotation around Z-axis
 t_eulerrot eulerAngles = ft_eulerrot_from_mat4(rotationMatrix);
 // eulerAngles will be {0, 0, M_PI/2}, assuming the convention that Z rotation is yaw
-***
+```
 
 ### Notes:
 - This conversion process ensures that the Euler angles are as stable as possible across the function's range. However, Euler angles can still suffer from gimbal lock in some cases, especially if the rotation matrix approaches certain critical orientations.

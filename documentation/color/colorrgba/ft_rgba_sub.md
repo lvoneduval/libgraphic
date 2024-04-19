@@ -9,12 +9,12 @@ Subtracts one RGBA color from another, component-wise. This function is used to 
 - `t_colorrgba`: The resulting RGBA color after subtraction. Each component of the color is the difference between the corresponding components of the input colors.
 
 ### Example Usage
-***c
+```c
 t_colorrgba baseColor = {255, 200, 150, 255};  // Opaque pastel orange
 t_colorrgba subtractColor = {100, 50, 50, 100}; // Semi-transparent reduction
 t_colorrgba newColor = ft_rgba_sub(baseColor, subtractColor);
 // newColor will have red = 155, green = 150, blue = 100, alpha = 155
-***
+```
 
 ### Function Details
 This function calculates each component of the resulting RGBA color by:

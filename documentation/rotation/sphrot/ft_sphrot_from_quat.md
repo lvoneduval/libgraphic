@@ -11,11 +11,11 @@ This function computes the spherical rotation representation from the quaternion
 - `t_sphrot`: The spherical rotation coordinates that represent the same rotation as the input quaternion.
 
 ### Example Usage
-***c
+```c
 t_quat quat = {0.0, 0.707, 0.707, 0.0}; // Quaternion representing a rotation around Y-axis by 90 degrees
 t_sphrot sphrot = ft_sphrot_from_quat(quat);
 // sphrot will have lat, lon values representing the orientation and angle corresponding to the input quaternion
-***
+```
 
 ### Notes:
 - **Latitude Calculation**: Uses `asinf(q.y)` to determine the pitch.

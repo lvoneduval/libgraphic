@@ -16,11 +16,11 @@ This function initializes an axis-angle rotation structure:
 - `t_aarot`: An axis-angle rotation initialized with the specified axis and angle.
 
 ### Example Usage
-***c
+```c
 // Create an axis-angle rotation for 90 degrees around the Z-axis
 t_aarot rotation = ft_aarot_new(0.0, 0.0, 1.0, M_PI / 2);
 // rotation now represents a 90-degree rotation around the Z-axis
-***
+```
 
 ### Notes:
 - The function does not normalize the input axis, so the caller must ensure that the axis is a unit vector if that property is required for subsequent calculations.

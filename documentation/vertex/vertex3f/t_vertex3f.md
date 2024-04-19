@@ -1,4 +1,4 @@
-# t_vertex3f Documentation
+# Vertex3f Documentation
 
 This document provides detailed information about the `t_vertex3f` structure, which represents a 3D vertex using floating-point coordinates. It is commonly used in graphics programming and computational geometry for representing points or positions in a two-dimensional space.
 

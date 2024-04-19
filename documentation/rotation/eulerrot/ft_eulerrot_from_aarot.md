@@ -13,11 +13,11 @@ This function converts the axis-angle representation into Euler angles through t
 - `t_eulerrot`: The Euler angles resulting from the conversion, representing the roll, pitch, and yaw of the original axis-angle rotation.
 
 ### Example Usage
-***c
+```c
 t_aarot axisAngle = {1.0, 0.0, 0.0, M_PI / 2}; // 90 degrees rotation around the X-axis
 t_eulerrot euler = ft_eulerrot_from_aarot(axisAngle);
 // euler will approximately be {M_PI / 2, 0, 0}, representing the 90-degree rotation around the X-axis
-***
+```
 
 ### Notes:
 - This function is particularly useful in scenarios where rotations are initially expressed in axis-angle form but need to be utilized in systems that prefer Euler angles.

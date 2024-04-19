@@ -16,11 +16,11 @@ The function performs the conversion by:
 - `t_quat`: The resulting quaternion that represents the same rotation as the input axis-angle.
 
 ### Example Usage
-***c
+```c
 t_aarot axisAngle = {1.0, 0.0, 0.0, M_PI};  // Rotate 180 degrees around the x-axis
 t_quat rotationQuat = ft_quat_from_aarot(axisAngle);
 // rotationQuat will represent the 180-degree rotation around the x-axis
-***
+```
 
 ### Notes:
 - The input angle should be in radians.

@@ -14,12 +14,12 @@ Quaternion multiplication combines the effects of the rotations represented by t
 - `t_quat`: The quaternion resulting from the multiplication, representing the combined rotation of `q1` followed by `q2`.
 
 ### Example Usage
-***c
+```c
 t_quat quatA = {1, 0, 1, 0}; // Quaternion representing a specific rotation
 t_quat quatB = {0, 1, 0, 1}; // Another quaternion representing a different rotation
 t_quat resultQuat = ft_quat_mul(quatA, quatB);
 // resultQuat now represents the rotation of quatA followed by the rotation of quatB
-***
+```
 
 ### Notes:
 - It's essential to note that quaternion multiplication is not commutative — the sequence in which quaternions are multiplied affects the final outcome.

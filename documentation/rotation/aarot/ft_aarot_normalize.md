@@ -15,13 +15,13 @@ This function normalizes the axis part of an axis-angle rotation. The steps incl
 - `t_aarot`: The normalized axis-angle rotation. If the input axis was a zero vector, the output will be the same as the input.
 
 ### Example Usage
-***c
+```c
 // Create an axis-angle rotation with a non-unit axis
 t_aarot rotation = {2.0, 2.0, 2.0, M_PI};
 // Normalize the rotation
 t_aarot normalized_rotation = ft_aarot_normalize(rotation);
 // normalized_rotation will have an axis of approximately (0.577, 0.577, 0.577) and an angle of π
-***
+```
 
 ### Notes:
 - Normalizing the rotation axis is crucial when the magnitude of the axis affects the behavior of rotation operations in graphics or physics engines.

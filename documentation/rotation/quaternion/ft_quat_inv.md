@@ -13,11 +13,11 @@ The inverse of a quaternion \(q\) is calculated as follows:
 - `t_quat`: The quaternion representing the inverse of the input quaternion.
 
 ### Example Usage
-***c
+```c
 t_quat quat = {1, 0, 1, 0}; // Example quaternion
 t_quat inverseQuat = ft_quat_inv(quat);
 // inverseQuat will be the quaternion that, when multiplied by 'quat', results in the identity quaternion {1, 0, 0, 0}
-***
+```
 
 ### Notes:
 - If the quaternion is a unit quaternion (common in rotation representations), the inverse is equivalent to its conjugate. For non-unit quaternions, dividing by the norm ensures the inverse is also a unit quaternion.

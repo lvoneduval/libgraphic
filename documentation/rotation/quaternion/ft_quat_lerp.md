@@ -14,13 +14,13 @@ Linear interpolation between two quaternions is calculated by:
 - `t_quat`: The interpolated quaternion. It represents a rotation that is part-way between the two input quaternions, depending on the value of `alpha`.
 
 ### Example Usage
-***c
+```c
 t_quat startQuat = {1, 0, 0, 0}; // Represents no rotation
 t_quat endQuat = {0, 1, 0, 0}; // Represents a 180-degree rotation around the y-axis
 float t = 0.5; // Halfway interpolation
 t_quat midQuat = ft_quat_lerp(startQuat, endQuat, t);
 // midQuat will be approximately {0.5, 0.5, 0, 0}
-***
+```
 
 ### Notes:
 - Quaternion interpolation using LERP does not always result in a unit quaternion. Normalization may be required after interpolation to ensure the quaternion remains valid for rotation purposes.

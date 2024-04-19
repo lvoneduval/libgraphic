@@ -17,11 +17,11 @@ This function converts the quaternion into Euler angles through the following st
   - `z` (yaw): Rotation about the Z-axis.
 
 ### Example Usage
-***c
+```c
 t_quat quat = {0.707, 0.0, 0.707, 0.0};  // Quaternion representing 90 degrees rotation around the Y-axis
 t_eulerrot euler = ft_eulerrot_from_quat(quat);
 // euler will approximately be {0, M_PI/2, 0}, depending on the sign and exact representation of the quaternion
-***
+```
 
 ### Notes:
 - Euler angles converted from quaternions can exhibit what is known as "gimbal lock," a condition where two of the three axes align and one degree of rotational freedom is lost.

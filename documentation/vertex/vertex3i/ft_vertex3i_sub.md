@@ -12,12 +12,12 @@ This function performs an element-wise subtraction between two 3D vertices. It s
 - `t_vertex3i`: The resulting vertex after subtraction.
 
 ### Example Usage
-***c
+```c
 t_vertex3i v1 = {5, 8, 2};
 t_vertex3i v2 = {3, 3, 2};
 t_vertex3i result = ft_vertex3i_sub(v1, v2);
 // result will be {2, 5, 0}
-***
+```
 
 ### Notes:
 This operation creates a new vertex as the result and does not modify the original vertices.

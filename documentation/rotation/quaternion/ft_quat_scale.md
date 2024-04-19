@@ -14,12 +14,12 @@ This function multiplies each component of the quaternion (scalar and vector par
 - `t_quat`: The resulting quaternion after scaling. Note that this operation may affect the normalization of the quaternion.
 
 ### Example Usage
-***c
+```c
 t_quat quat = {0.707, 0.707, 0.0, 0.0}; // Quaternion representing a 90-degree rotation around the XZ plane
 float scaleFactor = 0.5;
 t_quat scaledQuat = ft_quat_scale(quat, scaleFactor);
 // scaledQuat will be {0.3535, 0.3535, 0.0, 0.0}
-***
+```
 
 ### Notes:
 - Scaling a quaternion is useful for blending rotations or adjusting the interpolation factor in animation and simulation tasks.

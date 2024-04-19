@@ -20,11 +20,11 @@ Using these values, the quaternion components are calculated as follows:
 - `t_quat`: The resulting quaternion representing the input Euler angles.
 
 ### Example Usage
-***c
+```c
 t_eulerrot eulerAngles = {M_PI / 6, M_PI / 4, M_PI / 3}; // Roll, Pitch, Yaw in radians
 t_quat rotationQuat = ft_quat_from_eulerrot(eulerAngles);
 // rotationQuat now represents the same rotation defined by eulerAngles
-***
+```
 
 ### Notes:
 - Euler angles are converted in the order of roll (x-axis), pitch (y-axis), and yaw (z-axis).

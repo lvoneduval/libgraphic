@@ -16,12 +16,12 @@ The result is a scalar value representing the cosine of the angle between the tw
 - `float`: The scalar result of the dot product. It ranges from -1 to 1, where 1 means the quaternions are identical, -1 means they are opposite, and 0 indicates orthogonality.
 
 ### Example Usage
-***c
+```c
 t_quat quat1 = {1.0, 0.0, 0.0, 0.0};
 t_quat quat2 = {0.0, 1.0, 0.0, 0.0};
 float dotProduct = ft_quat_dotprod(quat1, quat2);
 // dotProduct will be 0.0, indicating orthogonality
-***
+```
 
 ### Notes:
 - This function is often used in the normalization process and to determine quaternion interpolation parameters.

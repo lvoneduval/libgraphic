@@ -11,10 +11,10 @@ This function initializes a vertex with both x and y values set to 0.0, which re
 - `t_vertex2f`: A vertex with coordinates (0.0, 0.0).
 
 ### Example Usage
-***c
+```c
 t_vertex2f origin = ft_vertex2f_null();
 // origin.x will be 0.0 and origin.y will be 0.0
-***
+```
 
 ### Notes:
 This is often used to initialize vertices or as a default value when a vertex is needed but no specific position is yet assigned.

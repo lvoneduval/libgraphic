@@ -12,12 +12,12 @@ The cross product is calculated similarly to the cross product of vectors, appli
 - `t_quat`: The quaternion representing the cross product, with the scalar part as zero.
 
 ### Example Usage
-***c
+```c
 t_quat q1 = {x: 1.0, y: 0.0, z: 0.0, w: 0.0};
 t_quat q2 = {x: 0.0, y: 1.0, z: 0.0, w: 0.0};
 t_quat crossProd = ft_quat_crossprod(q1, q2);
 // crossProd will be {0.0, 0.0, 1.0, 0.0}
-***
+```
 
 ### Notes:
 - The resulting quaternion is purely vectorial, which means its scalar component is zero. This can be interpreted as a direction vector in 3D space.

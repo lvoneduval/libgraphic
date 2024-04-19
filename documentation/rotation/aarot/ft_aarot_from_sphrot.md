@@ -19,11 +19,11 @@ This function constructs an axis-angle rotation where:
   - `angle` - the rotation angle in radians
 
 ### Example Usage
-***c
+```c
 t_sphrot sphrot = {M_PI/4, M_PI/2, M_PI/2}; // Spherical rotation with specific latitude and longitude
 t_aarot aarot = ft_aarot_from_sphrot(sphrot);
 // aarot will represent a rotation around the axis (0.707, 0.707, 0) with an angle of pi/2 radians
-***
+```
 
 ### Notes:
 - This conversion is useful for transforming spherical coordinate-based rotations into a format that is commonly used for animation and physics calculations in 3D graphics and game development.

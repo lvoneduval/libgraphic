@@ -13,11 +13,11 @@ This function performs the conversion through the following steps:
 - `t_eulerrot`: The Euler angles derived from the spherical rotation, which represent the rotations around the X (roll), Y (pitch), and Z (yaw) axes.
 
 ### Example Usage
-***c
+```c
 t_sphrot sphrot = {M_PI / 4, M_PI / 3, M_PI / 6}; // Spherical rotation with latitude, longitude, and rotation angle
 t_eulerrot euler = ft_eulerrot_from_sphrot(sphrot);
 // euler will contain the Euler angles corresponding to the spherical rotation
-***
+```
 
 ### Notes:
 - Converting through a quaternion intermediary helps prevent issues like gimbal lock that can occur when directly converting spherical coordinates to Euler angles.

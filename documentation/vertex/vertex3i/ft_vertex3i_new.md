@@ -13,10 +13,10 @@ This function constructs a new `t_vertex3i` struct, assigning the provided x and
 - `t_vertex3i`: A vertex initialized with the provided x and y coordinates.
 
 ### Example Usage
-***c
+```c
 t_vertex3i vertex = ft_vertex3i_new(5, 3, 0);
 // vertex.x will be 5 and vertex.y will be 3, vertex.z will be 0
-***
+```
 
 ### Notes:
 The function is useful for setting up vertices for graphics processing or geometric calculations where explicit positioning is required.

@@ -15,12 +15,12 @@ This function computes the difference between two Euler angles:
 - `t_eulerrot`: The result of the subtraction, indicating the difference in Euler angles between the two inputs.
 
 ### Example Usage
-***c
+```c
 t_eulerrot euler1 = {M_PI, 0, M_PI/2};
 t_eulerrot euler2 = {M_PI/2, M_PI/4, M_PI/4};
 t_eulerrot difference = ft_eulerrot_sub(euler1, euler2);
 // difference will be {M_PI/2, -M_PI/4, M_PI/4}
-***
+```
 
 ### Notes:
 - This function is useful in scenarios where the relative rotation between two orientations needs to be determined.

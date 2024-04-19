@@ -16,10 +16,10 @@ This function initializes a `t_eulerrot` structure with the specified rotations 
 - `t_eulerrot`: A new Euler rotation object configured with the provided angles.
 
 ### Example Usage
-***c
+```c
 // Create a Euler rotation of 90 degrees around X, 45 degrees around Y, and 30 degrees around Z.
 t_eulerrot rotation = ft_eulerrot_new(M_PI/2, M_PI/4, M_PI/6);
-***
+```
 
 ### Notes:
 - Euler rotations are applied in the order of roll, pitch, and yaw. This function does not perform any normalization or adjustment on the input angles; it simply assigns them to the respective fields in the `t_eulerrot` structure.

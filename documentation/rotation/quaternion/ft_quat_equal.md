@@ -16,12 +16,12 @@ If all corresponding components are equal, the quaternions are considered equal.
 - `int`: Returns 1 if the quaternions are equal, otherwise returns 0.
 
 ### Example Usage
-***c
+```c
 t_quat quat1 = {1.0, 0.0, 0.0, 0.0};
 t_quat quat2 = {1.0, 0.0, 0.0, 0.0};
 int isEqual = ft_quat_equal(quat1, quat2);
 // isEqual will be 1 because quat1 and quat2 are equal
-***
+```
 
 ### Notes:
 - This comparison is exact; even minor differences in floating-point values will result in quaternions being considered unequal.

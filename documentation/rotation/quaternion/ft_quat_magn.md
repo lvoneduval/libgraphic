@@ -12,11 +12,11 @@ The magnitude is calculated using the Euclidean norm formula, which is the squar
 - `float`: The magnitude of the quaternion. It represents the length of the quaternion vector in four-dimensional space.
 
 ### Example Usage
-***c
+```c
 t_quat quat = {1, 0, 1, 0}; // Example quaternion
 float magnitude = ft_quat_magn(quat);
 // magnitude will calculate to sqrt(2), which is approximately 1.414
-***
+```
 
 ### Notes:
 - The magnitude of a unit quaternion (used to represent rotations) is 1. Non-unit quaternions might represent scaling and rotation in quaternion-based graphics or physics calculations.

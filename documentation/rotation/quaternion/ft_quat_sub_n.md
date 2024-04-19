@@ -13,12 +13,12 @@ This function modifies only the scalar (real) part of the quaternion:
 - `t_quat`: The resulting quaternion after subtracting the scalar from the scalar component.
 
 ### Example Usage
-***c
+```c
 t_quat originalQuat = {0.707, 0.707, 0.0, 0.707}; // Quaternion representing rotation around an axis
 float scalarToSubtract = 0.207;
 t_quat modifiedQuat = ft_quat_sub_n(originalQuat, scalarToSubtract);
 // modifiedQuat will be {0.707, 0.707, 0.0, 0.5}
-***
+```
 
 ### Notes:
 - Subtracting a scalar from the `w` component of a quaternion does not conform to traditional quaternion operations used for rotation representation. It can be used for experimental purposes or specific mathematical manipulations.

@@ -17,11 +17,11 @@ The conversion process involves:
 - `t_quat`: The quaternion representing the rotation specified by the input spherical coordinates.
 
 ### Example Usage
-***c
+```c
 t_sphrot sphericalRot = {M_PI / 4, M_PI / 2, M_PI};  // Example spherical coordinates
 t_quat quaternion = ft_quat_from_sphrot(sphericalRot);
 // quaternion will represent the rotation around the axis defined by the spherical coordinates
-***
+```
 
 ### Notes:
 - This function provides a direct way to convert spherical coordinates to quaternions, which is particularly useful in graphics and physics simulations where rotations are needed.

@@ -1,4 +1,4 @@
-# t_vertex3i Documentation
+# Vertex3i Documentation
 
 This document provides detailed information about the `t_vertex3i` structure, which represents a 3D vertex using integer-point coordinates. It is commonly used in graphics programming and computational geometry for representing points or positions in a two-dimensional space.
 

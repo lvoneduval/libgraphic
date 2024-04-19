@@ -11,7 +11,7 @@ This function converts the input matrix to a quaternion using `ft_quat_from_mat4
 - `t_sphrot`: The spherical rotation equivalent of the rotation described by the input matrix.
 
 ### Example Usage
-***c
+```c
 t_matrix4 mat = {
     .array = {
         {1, 0, 0, 0},
@@ -22,7 +22,7 @@ t_matrix4 mat = {
 };
 t_sphrot sphrot = ft_sphrot_from_mat4(mat);
 // sphrot will represent the spherical rotation equivalent of the matrix
-***
+```
 
 ### Notes:
 - This conversion is particularly valuable when decomposing transformation matrices into more intuitive, spherical rotation terms for applications like orbital mechanics or spherical camera controls in 3D environments.

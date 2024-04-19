@@ -12,12 +12,12 @@ This function computes the addition of two 2D with integer coordinates by adding
 - `t_vertex2i`: The resulting vertex after addition.
 
 ### Example Usage
-***c
+```c
 t_vertex2i v1 = {1, 2};
 t_vertex2i v2 = {3, 4};
 t_vertex2i result = ft_vertex2i_add(v1, v2);
 // result will be {4, 6}
-***
+```
 
 ### Notes:
 This operation does not modify the input vertices but returns a new vertex that represents their sum.

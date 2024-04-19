@@ -11,11 +11,11 @@ This function first converts the Euler rotation into a quaternion representation
 - `t_sphrot`: The spherical rotation structure representing the same rotation as the given Euler angles.
 
 ### Example Usage
-***c
+```c
 t_eulerrot euler = {x: M_PI / 3, y: M_PI / 4, z: M_PI / 6};
 t_sphrot sphrot = ft_sphrot_from_eulerrot(euler);
 // sphrot will represent the spherical equivalent of the Euler rotation
-***
+```
 
 ### Notes:
 - Euler angles can sometimes lead to issues like gimbal lock; converting them into spherical coordinates can help in applications like 3D graphics and robotics, where such problems need to be avoided.

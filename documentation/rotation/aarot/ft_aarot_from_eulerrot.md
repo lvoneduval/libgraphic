@@ -13,11 +13,11 @@ This function operates in two main steps:
 - `t_aarot`: The resulting axis-angle rotation that represents the same 3D rotation as the input Euler angles.
 
 ### Example Usage
-***c
+```c
 t_eulerrot euler = {M_PI/2, M_PI/2, M_PI/2}; // 90 degrees rotation about X, Y, and Z
 t_aarot aarot = ft_aarot_from_eulerrot(euler);
 // aarot now contains the axis and angle representing the same rotation as the euler angles
-***
+```
 
 ### Notes:
 - This function is particularly useful in scenarios where an axis-angle representation is required, but the initial rotation data is provided in Euler angles. It ensures a smooth transition between rotation formats while preserving the rotational semantics.

@@ -13,12 +13,12 @@ This function directly assigns the x, y, and z components of the input vector `v
 - `t_quat`: The quaternion formed by the given vector and scalar.
 
 ### Example Usage
-***c
+```c
 t_vector3 v = {1.0, 2.0, 3.0}; // Example vector
 float scalar = 1.0;
 t_quat quaternion = ft_quat_from_vector3(v, scalar);
 // quaternion will have components w = 1.0, x = 1.0, y = 2.0, z = 3.0
-***
+```
 
 ### Notes:
 - This function is useful for integrating vector and scalar data into a single quaternion structure, particularly in graphics and physics computations where rotations and orientations are handled.

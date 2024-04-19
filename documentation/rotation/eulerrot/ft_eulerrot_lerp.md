@@ -14,13 +14,13 @@ This function computes the interpolated Euler angles by blending the rotations:
 - `t_eulerrot`: The interpolated Euler angles at the factor `t`. This set of angles represents a combination of the input angles weighted by `t`.
 
 ### Example Usage
-***c
+```c
 t_eulerrot start = {0, 0, 0}; // Starting with no rotation
 t_eulerrot end = {M_PI, 0, M_PI}; // Ending at 180 degrees rotation on X and Z axes
 float t = 0.5; // Midway interpolation
 t_eulerrot midRotation = ft_eulerrot_lerp(start, end, t);
 // midRotation will be {M_PI/2, 0, M_PI/2}
-***
+```
 
 ### Notes:
 - Linear interpolation of Euler angles might introduce non-intuitive behaviors in certain cases, especially near the poles of the rotation sphere, due to Euler angles' susceptibility to gimbal lock.

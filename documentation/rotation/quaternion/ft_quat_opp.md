@@ -13,11 +13,11 @@ This function negates each vector component of the input quaternion:
 - `t_quat`: The quaternion after negation of its vector components. The resulting quaternion points in the opposite direction on the unit sphere.
 
 ### Example Usage
-***c
+```c
 t_quat originalQuat = {0.707, 0.707, 0.0, 0.0}; // Example quaternion
 t_quat oppositeQuat = ft_quat_opp(originalQuat);
 // oppositeQuat will be {0.707, -0.707, 0.0, 0.0}
-***
+```
 
 ### Notes:
 - Negating the vector part of a quaternion is useful in scenarios where the inverse direction of an orientation is needed without affecting the rotation's magnitude around the axis.

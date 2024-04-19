@@ -12,12 +12,12 @@ This function multiplies the corresponding components (x and y) of two vertices 
 - `t_vertex2f`: A new vertex resulting from the element-wise multiplication of the two given vertices.
 
 ### Example Usage
-***c
+```c
 t_vertex2f vertex1 = ft_vertex2f_new(2.0, 3.0);
 t_vertex2f vertex2 = ft_vertex2f_new(4.0, 5.0);
 t_vertex2f result = ft_vertex2f_mul(vertex1, vertex2);
 // result.x will be 8.0 and result.y will be 15.0
-***
+```
 
 ### Notes:
 Element-wise multiplication does not represent a dot product or a vector product; it simply multiplies corresponding components.

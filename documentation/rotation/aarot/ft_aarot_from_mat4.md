@@ -13,7 +13,7 @@ The conversion process involves two main steps:
 - `t_aarot`: The axis-angle rotation that equivalently represents the rotation component of the input matrix.
 
 ### Example Usage
-***c
+```c
 t_matrix4 mat = {
     {1, 0, 0, 0},
     {0, 1, 0, 0},
@@ -22,7 +22,7 @@ t_matrix4 mat = {
 }; // Identity matrix representing no rotation
 t_aarot aarot = ft_aarot_from_mat4(mat);
 // aarot will represent a null rotation around any axis with zero angle
-***
+```
 
 ### Notes:
 - This function is crucial in scenarios where a rotation needs to be extracted from a transformation matrix that might contain other transformations like scaling or translation.

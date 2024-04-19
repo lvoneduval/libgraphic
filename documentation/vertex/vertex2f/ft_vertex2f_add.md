@@ -12,12 +12,12 @@ This function computes the addition of two 2D floating-point vertices by adding 
 - `t_vertex2f`: The resulting vertex after addition.
 
 ### Example Usage
-***c
+```c
 t_vertex2f v1 = {1.0, 2.0};
 t_vertex2f v2 = {3.0, 4.0};
 t_vertex2f result = ft_vertex2f_add(v1, v2);
 // result will be {4.0, 6.0}
-***
+```
 
 ### Notes:
 This operation does not modify the input vertices but returns a new vertex that represents their sum.

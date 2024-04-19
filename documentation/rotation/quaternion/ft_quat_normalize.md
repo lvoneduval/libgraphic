@@ -13,11 +13,11 @@ This function calculates the norm (magnitude) of the quaternion and then divides
 - `t_quat`: The normalized quaternion. If the input quaternion is already of unit length or the norm calculation returns zero, the function handles these cases gracefully.
 
 ### Example Usage
-***c
+```c
 t_quat quat = {0.0, 3.0, 4.0, 0.0}; // Example non-normalized quaternion
 t_quat normalizedQuat = ft_quat_normalize(quat);
 // normalizedQuat will be approximately {0.0, 0.6, 0.8, 0.0}
-***
+```
 
 ### Notes:
 - Normalizing a quaternion is crucial when using quaternions for rotation, as non-normalized quaternions can lead to errors in rotation computations and graphical rendering.

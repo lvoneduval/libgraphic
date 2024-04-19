@@ -11,11 +11,11 @@ This function converts each component of the `t_vertex3i` structure (integer val
 - `t_vertex3f`: A new vertex with floating-point coordinates corresponding to the input integer coordinates.
 
 ### Example Usage
-***c
+```c
 t_vertex3i intVertex = {1, 2, 3};
 t_vertex3f floatVertex = ft_vertex3f_from_vertex3i(intVertex);
 // floatVertex will have coordinates (1.0, 2.0, 3.0)
-***
+```
 
 ### Notes:
 The conversion assumes a direct casting from `int` to `float`, which maintains the numerical value but changes the data type to accommodate fractional components if required later.

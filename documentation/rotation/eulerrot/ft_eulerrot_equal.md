@@ -14,12 +14,12 @@ This function compares the corresponding components (x, y, z representing rotati
 - `int`: Returns 1 (true) if all corresponding components of `a` and `b` are within the specified `tolerance`, otherwise returns 0 (false).
 
 ### Example Usage
-***c
+```c
 t_eulerrot rot1 = {0.0, M_PI / 4, 0.0};
 t_eulerrot rot2 = {0.0, M_PI / 3, 0.0};
 int isEqual = ft_eulerrot_equal(rot1, rot2, 0.1);
 // isEqual will be 0 (false) because the difference in the Y-axis rotation exceeds 0.1 radians
-***
+```
 
 ### Notes:
 - This function is particularly useful in applications where small numerical differences between angles can be disregarded, such as in iterative algorithms or when validating the results of floating-point computations.

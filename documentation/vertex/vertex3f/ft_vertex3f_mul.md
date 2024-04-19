@@ -12,12 +12,12 @@ This function multiplies the corresponding components (x, y and z) of two vertic
 - `t_vertex3f`: A new vertex resulting from the element-wise multiplication of the two given vertices.
 
 ### Example Usage
-***c
+```c
 t_vertex3f vertex1 = ft_vertex3f_new(2.0, 3.0, 2.0);
 t_vertex3f vertex2 = ft_vertex3f_new(4.0, 5.0, 2.0);
 t_vertex3f result = ft_vertex3f_mul(vertex1, vertex2);
 // result.x will be 8.0 and result.y will be 15.0 result.z will be 4.0
-***
+```
 
 ### Notes:
 Element-wise multiplication does not represent a dot product or a vector product; it simply multiplies corresponding components.

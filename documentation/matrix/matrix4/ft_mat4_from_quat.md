@@ -15,10 +15,10 @@ This function constructs a rotation matrix from a quaternion by applying the mat
 - `t_matrix4`: The resulting rotation matrix that can be used to apply the quaternion's rotation in a matrix-based graphics pipeline.
 
 ### Example Usage
-***c
+```c
 t_quat rotationQuat = {0.0, 0.707, 0.707, 0.0}; // Quaternion for a 90-degree rotation around the Y-axis
 t_matrix4 rotationMatrix = ft_mat4_from_quat(rotationQuat);
-***
+```
 
 ### Notes:
 - **Efficiency**: Using quaternions for rotations avoids issues like gimbal lock and provides a more numerically stable method compared to Euler angles.

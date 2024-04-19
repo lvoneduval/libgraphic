@@ -17,11 +17,11 @@ This function performs the conversion through the following steps:
   - `x`, `y`, `z` define the axis of rotation as a unit vector.
 
 ### Example Usage
-***c
+```c
 t_quat q = {0.0, 1.0, 0.0, 0.0};  // Quaternion representing 180 degrees rotation around the Y-axis
 t_aarot aarot = ft_aarot_from_quat(q);
 // aarot will represent a rotation of pi radians around the Y-axis
-***
+```
 
 ### Notes:
 - The conversion assumes the quaternion is properly formed and represents a rotation. Non-rotation quaternions might yield unexpected results.

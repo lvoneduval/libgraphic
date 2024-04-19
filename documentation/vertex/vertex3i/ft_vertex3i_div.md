@@ -12,12 +12,12 @@ This function divides each component of v1 by the corresponding component of v2.
 - `t_vertex3i`: The resulting vertex after division.
 
 ### Example Usage
-***c
+```c
 t_vertex3i v1 = {10, 20 0};
 t_vertex3i v2 = {5, 4, 1};
 t_vertex3i result = ft_vertex3i_div(v1, v2);
 // result will have x = 2, y = 5 and z = 0
-***
+```
 
 ### Notes:
 This operation does not modify the input vertices but returns a new vertex. If any component of `v2` is zero, the result for that component will be undefined (or could cause a runtime error depending on the environment).

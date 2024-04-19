@@ -11,11 +11,11 @@ This function negates both the `x`, `y` and `z` coordinates of the given vertex,
 - `t_vertex3f`: A vertex with both coordinates negated relative to the input.
 
 ### Example Usage
-***c
+```c
 t_vertex3f v = {4.5, -3.2, 0.0};
 t_vertex3f result = ft_vertex3f_opp(v);
 // result will be {-4.5, 3.2, 0.0}
-***
+```
 
 ### Notes:
 The operation does not modify the original vertex but returns a new one with the negated values.

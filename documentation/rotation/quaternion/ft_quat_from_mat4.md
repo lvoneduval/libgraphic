@@ -14,7 +14,7 @@ The conversion from a rotation matrix to a quaternion involves:
 - `t_quat`: The quaternion that corresponds to the rotation represented by the input matrix.
 
 ### Example Usage
-***c
+```c
 t_matrix4 rotationMatrix = {
     {0, -1, 0, 0},
     {1, 0, 0, 0},
@@ -23,7 +23,7 @@ t_matrix4 rotationMatrix = {
 }; // Represents a 90-degree rotation around the Z-axis
 t_quat rotationQuat = ft_quat_from_mat4(rotationMatrix);
 // rotationQuat will now represent the same rotation as the matrix
-***
+```
 
 ### Notes:
 - This function assumes that the input matrix is a pure rotation matrix and does not handle cases where the matrix includes scaling or translation.

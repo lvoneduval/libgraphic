@@ -12,12 +12,12 @@ This function computes the addition of two 3D floating-point vertices by adding 
 - `t_vertex3f`: The resulting vertex after addition.
 
 ### Example Usage
-***c
+```c
 t_vertex3f v1 = {1.0, 2.0, 5.0};
 t_vertex3f v2 = {3.0, 4.0, 6.0};
 t_vertex3f result = ft_vertex3f_add(v1, v2);
 // result will be {4.0, 6.0, 11.0}
-***
+```
 
 ### Notes:
 This operation does not modify the input vertices but returns a new vertex that represents their sum.

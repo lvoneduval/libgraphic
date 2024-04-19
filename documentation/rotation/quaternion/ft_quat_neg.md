@@ -13,11 +13,11 @@ This function inverts the sign of every component (w, x, y, z) of the quaternion
 - `t_quat`: The negated quaternion, which is geometrically equivalent to the original quaternion but with all components having opposite signs.
 
 ### Example Usage
-***c
+```c
 t_quat originalQuat = {1.0, 2.0, 3.0, 4.0}; // Example quaternion
 t_quat negatedQuat = ft_quat_neg(originalQuat);
 // negatedQuat will be {-1.0, -2.0, -3.0, -4.0}
-***
+```
 
 ### Notes:
 - Negating a quaternion does not change its ability to represent a rotation but does invert its orientation.

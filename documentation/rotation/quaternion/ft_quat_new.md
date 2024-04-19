@@ -16,10 +16,10 @@ This function directly assigns the provided values to the corresponding componen
 - `t_quat`: The newly created quaternion with the specified components.
 
 ### Example Usage
-***c
+```c
 // Create a quaternion representing a 180-degree rotation around the z-axis
 t_quat quat = ft_quat_new(0.0, 0.0, 1.0, 0.0);
-***
+```
 
 ### Notes:
 - The quaternion created by this function is not guaranteed to be normalized. Depending on the application, you may need to normalize the quaternion after creation to ensure proper rotation behavior.

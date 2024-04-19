@@ -11,11 +11,11 @@ The function first normalizes the axis components of the `aarot` to ensure they 
 - `t_sphrot`: The spherical rotation structure representing the same rotation as the given axis-angle structure.
 
 ### Example Usage
-***c
+```c
 t_aarot aarot = {x: 0.0, y: 1.0, z: 0.0, angle: M_PI / 2};
 t_sphrot sphrot = ft_sphrot_from_aarot(aarot);
 // sphrot will have lat = M_PI / 2, lon = 0, angle = M_PI / 2
-***
+```
 
 ### Notes:
 - This function is particularly useful in converting rotations for systems or formulas that utilize spherical coordinates for rotation representation.

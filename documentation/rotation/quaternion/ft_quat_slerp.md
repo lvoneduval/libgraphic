@@ -17,13 +17,13 @@ This function computes a smooth transition from quaternion `a` to quaternion `b`
 - `t_quat`: The interpolated quaternion which combines aspects of both input quaternions according to `alpha`.
 
 ### Example Usage
-***c
+```c
 t_quat quatStart = {1.0, 0.0, 0.0, 0.0};
 t_quat quatEnd = {0.0, 1.0, 0.0, 0.0};
 float interpolation = 0.5;
 t_quat resultQuat = ft_quat_slerp(quatStart, quatEnd, interpolation);
 // resultQuat should represent a 45-degree rotation between the two quaternions.
-***
+```
 
 ### Notes:
 - It is crucial for both quaternions to be normalized before using this function, as SLERP assumes both inputs describe valid rotations.

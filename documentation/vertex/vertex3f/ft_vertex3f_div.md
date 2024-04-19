@@ -12,12 +12,12 @@ This function performs an element-wise division of two 3D floating-point vertice
 - `t_vertex3f`: The resulting vertex after division.
 
 ### Example Usage
-***c
+```c
 t_vertex3f v1 = {4.0, 10.0, 1.0};
 t_vertex3f v2 = {2.0, 5.0, 1.0};
 t_vertex3f result = ft_vertex3f_div(v1, v2);
 // result will be {2.0, 2.0, 1.0}
-***
+```
 
 ### Notes:
 This operation does not modify the input vertices but returns a new vertex. If any component of `v2` is zero, the result for that component will be undefined (or could cause a runtime error depending on the environment).

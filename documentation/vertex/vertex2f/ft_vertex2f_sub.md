@@ -12,12 +12,12 @@ This function performs an element-wise subtraction between two 2D floating-point
 - `t_vertex2f`: The resulting vertex after subtraction.
 
 ### Example Usage
-***c
+```c
 t_vertex2f v1 = {5.0, 8.0};
 t_vertex2f v2 = {3.0, 3.0};
 t_vertex2f result = ft_vertex2f_sub(v1, v2);
 // result will be {2.0, 5.0}
-***
+```
 
 ### Notes:
 This operation creates a new vertex as the result and does not modify the original vertices.

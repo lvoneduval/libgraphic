@@ -11,10 +11,10 @@ This function initializes a vertex with both x and y values set to 0, which repr
 - `t_vertex3i`: A vertex with coordinates (0, 0, 0).
 
 ### Example Usage
-***c
+```c
 t_vertex3i origin = ft_vertex3i_null();
 // origin.x will be 0 and origin.y will be 0 origin.z will be 0
-***
+```
 
 ### Notes:
 This is often used to initialize vertices or as a default value when a vertex is needed but no specific position is yet assigned.

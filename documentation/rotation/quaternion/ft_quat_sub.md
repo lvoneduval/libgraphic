@@ -16,12 +16,12 @@ This function calculates the difference between two quaternions by subtracting e
 - `t_quat`: The resulting quaternion after subtraction. This quaternion represents the difference in rotation and orientation between the first and second quaternion.
 
 ### Example Usage
-***c
+```c
 t_quat quaternion1 = {1.0, 0.5, 0.5, 0.75};
 t_quat quaternion2 = {0.5, 0.25, 0.25, 0.5};
 t_quat result = ft_quat_sub(quaternion1, quaternion2);
 // result will be {0.5, 0.25, 0.25, 0.25}
-***
+```
 
 ### Notes:
 - Quaternion subtraction is not commonly used for combining rotations since the result may not represent a valid rotational quaternion. It is often used for differential purposes or error calculations in algorithms.

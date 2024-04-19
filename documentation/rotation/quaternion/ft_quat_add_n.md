@@ -13,12 +13,12 @@ This function modifies only the scalar (real) part of the quaternion:
 - `t_quat`: The resulting quaternion after adding the scalar to the scalar component.
 
 ### Example Usage
-***c
+```c
 t_quat originalQuat = {0.0, 0.707, 0.707, 0.707}; // Quaternion representing rotation around an axis
 float scalarToAdd = 0.293;
 t_quat modifiedQuat = ft_quat_add_n(originalQuat, scalarToAdd);
 // modifiedQuat will be {0.0, 0.707, 0.707, 1.0}
-***
+```
 
 ### Notes:
 - Adding a scalar to the `w` component of a quaternion does not conform to traditional quaternion operations used for rotation representation. It can be used for experimental purposes or specific mathematical manipulations.

@@ -11,11 +11,11 @@ The function scales all components of the quaternion (x, y, z, w) by the inverse
 - `t_quat`: The normalized quaternion with `w` scaled to one, unless `w` is zero, in which case the quaternion is returned as is.
 
 ### Example Usage
-***c
+```c
 t_quat quat = {2.0, 4.0, 4.0, 2.0};
 t_quat normalizedQuat = ft_quat_dotnormalize(quat);
 // normalizedQuat will be {1.0, 2.0, 2.0, 1.0}
-***
+```
 
 ### Notes:
 - If `w` is zero, the function returns the original quaternion unchanged, as division by zero is undefined.
