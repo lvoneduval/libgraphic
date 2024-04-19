@@ -31,7 +31,7 @@
 - [🗂️ Repository Structure](#️-repository-structure)
 - [🚀 Getting Started](#-getting-started)
   - [⚙️ Installation](#️-installation)
-  - [Quickstar](#-quick-start)
+  - [Quickstar](#quick-start)
 - [🛠 Project Roadmap](#-project-roadmap)
 - [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
