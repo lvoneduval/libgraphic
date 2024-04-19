@@ -26,4 +26,4 @@ The conversion assumes a direct casting from `int` to `float`, which maintains t
 - [vertex-doc](../vertex-doc.md) - Central documentation for different types of vertex structures.
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

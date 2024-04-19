@@ -27,4 +27,4 @@ Defines a spherical rotation using three angular components:
 Spherical rotations are particularly useful in systems where orientations are naturally expressed in spherical coordinates. They offer an intuitive understanding of rotation in terms of global directions (like latitude and longitude on a globe) and are essential in geospatial applications, astronomy, and 3D graphics for spherical environments.
 
 ### Return to the Home Page of the Documentation
-[Home](../home.md)
+[Home](../../home.md)

@@ -28,7 +28,7 @@ t_aarot aarot = ft_aarot_from_quat(q);
 - The function includes checks to handle cases where the quaternion is close to zero to avoid divisions by small numbers.
 
 ## Related Documentation
-- [t_quat](./quaternion/t_quat.md) - Detailed documentation on the quaternion structure used in this function.
+- [t_quat](../quaternion/t_quat.md) - Detailed documentation on the quaternion structure used in this function.
 - [rotation-doc](../rotation-doc.md) - Overview of different rotation representations and their interactions.
 - [t_aarot](./t_aarot.md) - Documentation on the axis-angle structure being returned.
 

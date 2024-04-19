@@ -25,4 +25,4 @@ The operation does not modify the original vertex but returns a new one with the
 - [vertex-doc](../vertex-doc.md) - Central documentation for different types of vertex.
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

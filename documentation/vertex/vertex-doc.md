@@ -8,7 +8,7 @@ This document serves as the main reference for the vertex structures used across
 Represents a 2D vertex using floating-point coordinates.
 - `x` - The x-coordinate in floating-point.
 - `y` - The y-coordinate in floating-point.
-[t_vertex2f-doc](./vertex2f/t_vertex2f.md) - Detailed documentation on operations and utilities.
+[t_vertex2f](./vertex2f/t_vertex2f.md) - Detailed documentation on operations and utilities.
 
 ### t_vertex2i
 Represents a 2D vertex using integer coordinates.

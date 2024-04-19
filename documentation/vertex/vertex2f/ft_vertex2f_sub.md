@@ -27,4 +27,4 @@ This operation creates a new vertex as the result and does not modify the origin
 - [vertex-doc](../vertex-doc.md) - Central documentation for different types of vertex.
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

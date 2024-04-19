@@ -27,4 +27,4 @@ Element-wise multiplication does not represent a dot product or a vector product
 - [vertex-doc](../vertex-doc.md) - Central documentation for different types of vertex.
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)

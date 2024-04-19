@@ -26,7 +26,7 @@ t_eulerrot euler = ft_eulerrot_from_sphrot(sphrot);
 ## Related Documentation
 - [t_sphrot](../sphrot/t_sphrot.md) - Documentation on the spherical rotation structure used in this function.
 - [t_quat](../quaternion/t_quat.md) - Intermediate quaternion representation used for the conversion.
-- [t_eulerrot](./ft_eulerrot_add.mdt_eulerrot.md) - Detailed documentation on the Euler angles structure returned by this function.
+- [t_eulerrot](./t_eulerrot.md) - Detailed documentation on the Euler angles structure returned by this function.
 - [rotation-doc](../rotation-doc.md) - Overview of different types of rotation representations.
 
 ### Return to the home page of the documentation

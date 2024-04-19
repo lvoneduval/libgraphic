@@ -31,4 +31,4 @@ This document provides detailed information about the `t_vertex3i` structure, wh
 - [vertex-doc](../vertex-doc.md) - Main overview of vertex structures and their documentation.
 
 ### Return to the Home Page of the Documentation
-[Home](../home.md)
+[Home](../../home.md)

@@ -24,7 +24,7 @@ print_quat(rotation);
 
 ## Related Documentation
 - [debug-doc](./debug-doc.md)
-- [t_quat](../rotation/quat/t_quat.md)
+- [t_quat](../rotation/quaternion/t_quat.md)
 
 ### Return to the home page of the documentation
 [Home](../home.md)

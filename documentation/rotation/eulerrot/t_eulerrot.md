@@ -55,4 +55,4 @@ Defines a rotation using Euler angles, where each angle represents a rotation ar
 Euler angles are widely used due to their intuitive interpretation but can be prone to gimbal lock. They are particularly useful in applications where the separate stages of rotation need to be easily understood or adjusted independently.
 
 ### Return to the Home Page of the Documentation
-[Home](../home.md)
+[Home](../../home.md)

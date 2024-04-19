@@ -31,7 +31,7 @@ t_quat rotationQuat = ft_quat_from_mat4(rotationMatrix);
 
 ## Related Documentation
 - [t_quat](./t_quat.md) - Detailed documentation on the quaternion data structure and operations.
-- [t_matrix4](../matrix/t_matrix4.md) - Documentation on the matrix used as input for this function.
+- [t_matrix4](../../matrix/matrix4/t_matrix4.md) - Documentation on the matrix used as input for this function.
 - [rotation-doc](../rotation-doc.md) - Overview of different rotation representations and conversions.
 
 ### Return to the home page of the documentation

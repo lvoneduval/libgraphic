@@ -54,4 +54,4 @@ Defines a quaternion used for representing and computing 3D rotations.
 Quaternions are particularly favored in computer graphics and robotics for their computational efficiency and robustness in handling rotations. They are immune to the gimbal lock problem and provide smooth interpolations necessary for animation.
 
 ### Return to the Home Page of the Documentation
-[Home](../home.md)
+[Home](../../home.md)

@@ -44,4 +44,4 @@ Defines a rotation around an arbitrary axis using the axis-angle method.
 Axis-angle rotations are especially useful for interpolating rotations and are often preferred in applications requiring a clear rotational axis and angle. It is crucial that the axis is normalized to maintain consistent rotational behavior.
 
 ### Return to the Home Page of the Documentation
-[Home](../home.md)
+[Home](../../home.md)

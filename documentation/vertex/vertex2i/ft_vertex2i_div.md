@@ -27,4 +27,4 @@ This operation does not modify the input vertices but returns a new vertex. If a
 - [vertex-doc](../vertex-doc.md) - Central documentation for different types of vertex.
 
 ### Return to the home page of the documentation
-[home](../../home.md)
+[Home](../../home.md)
