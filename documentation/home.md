@@ -21,7 +21,7 @@ Mathematical functions and types specifically tailored for graphics programming,
 ### [Matrix Module](./matrix/matrix-doc.md)
 Detailed information on matrix operations crucial for graphics programming, including transformations and manipulations.
 
-### [Mlx_Tools Module](./mlx_tools/mlx_tools-doc.md)
+### [Mlx_Tools Module](./mlx_tools/mlx-tools-doc.md)
 Documentation for MiniLibX utility functions, assisting in window and image management for graphical applications.
 
 ### [Rotation Module](./rotation/rotation-doc.md)
