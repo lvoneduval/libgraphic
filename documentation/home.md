@@ -4,7 +4,7 @@ Welcome to the Main Documentation page. Below you will find links to detailed do
 
 # Getting Started
 
-Kickstart your journey with our platform by following our straightforward Quick Start Guide. This guide is designed to help you set up and start using our system with practical examples and essential setup instructions.
+Kickstart your journey by following our straightforward Quick Start Guide. This guide is designed to help you set up and start using the Libgraphic with practical examples and essential setup instructions.
 
 - **Begin Your Experience:** Follow the steps outlined to quickly integrate and utilize our tools. [View the Quick Start Guide](./quick_start/quick_start.md).
 
