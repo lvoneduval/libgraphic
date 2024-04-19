@@ -2,6 +2,12 @@
 
 Welcome to the Main Documentation page. Below you will find links to detailed documentation for various modules of our system, each designed to help you understand and utilize the functionalities effectively.
 
+# Getting Started
+
+Kickstart your journey by following our straightforward Quick Start Guide. This guide is designed to help you set up and start using the Libgraphic with practical examples and essential setup instructions.
+
+- **Begin Your Experience:** Follow the steps outlined to quickly integrate and utilize our tools. [View the Quick Start Guide](./quick_start/quick_start.md).
+
 ## Modules Documentation
 
 Each module covers a specific aspect of our system, providing functions, data structures, and utilities tailored to particular needs.
@@ -32,7 +38,3 @@ Functions and structures for vector arithmetic, critical for handling spatial ca
 
 ### [Vertex Module](./vertex/vertex-doc.md)
 Documentation covering vertex structures and related functionalities, essential for managing geometric vertices in graphics applications.
-
-### Return to the Home Page
-
-[Home](../home.md)

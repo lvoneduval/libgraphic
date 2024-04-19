@@ -356,7 +356,7 @@ Libgraphic is designed to be extensible, high-performing, and user-friendly, sui
 > 
 
 ### Quick Start
- Kickstart your journey with our platform by following our straightforward Quick Start Guide. This guide is designed to help you set up and start using our system with practical examples and essential setup instructions.
+ Kickstart your journey by following our straightforward Quick Start Guide. This guide is designed to help you set up and start using the Libgraphic with practical examples and essential setup instructions.
 - **Begin Your Experience:** Follow the steps outlined to quickly integrate and utilize our tools. [View the Quick Start Guide](./documentation/quick_start/quick_start.md).
 
 
