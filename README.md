@@ -374,7 +374,8 @@ Explore the comprehensive documentation to familiarize yourself with all aspects
 
 - [X] `► MAKEFILE`
 - [X] `► DEPENDENCIES:`
-- [ ] `► DOCUMENTATION:`
+- [X] `► DOCUMENTATION:`
+- [ ] `► Quick Start`
 - [ ] `► ADD MATRIX` 
 - [ ] `► UPDATE DEBUG`
 
